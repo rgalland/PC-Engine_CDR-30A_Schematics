@@ -4233,13 +4233,14 @@
 		)
 		(uuid "9229a9ec-046f-424e-b5f3-e132be67dd35")
 	)
-	(text "CDR-30 (older revision used CXD1135 with external RAM IC107 HM6116\ninstead but seemed to be the same). CXD1167 must have built in RAM"
+	(text "CDR-30 (older revision used CXD1135 with external RAM IC107 HM6116\ninstead but seemed to be the same). CXD1167 must have built in RAM\n- Edit: some CDR-30As also come with CXD1135 + RAM"
 		(exclude_from_sim no)
-		(at 135.636 27.686 0)
+		(at 112.014 25.654 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "9591b2f9-939c-4302-87f7-434161f515ab")
 	)
