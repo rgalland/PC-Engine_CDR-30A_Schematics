@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PC-Engine CDR-30A (CD-ROM2) Schematics - MAIN PWR")
-		(date "2024-05-03")
-		(rev "0.1")
+		(date "2024-07-19")
+		(rev "0.2")
 		(company "Author: Regis Galland")
 	)
 	(lib_symbols
@@ -2779,7 +2779,7 @@
 	)
 	(polyline
 		(pts
-			(xy 199.39 38.1) (xy 199.39 49.53)
+			(xy 199.39 36.83) (xy 199.39 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3229,7 +3229,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.5 30.48) (xy 191.77 30.48)
+			(xy 190.5 30.48) (xy 194.31 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3249,7 +3249,7 @@
 	)
 	(polyline
 		(pts
-			(xy 191.77 30.48) (xy 191.77 36.83)
+			(xy 194.31 25.4) (xy 194.31 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3269,7 +3269,7 @@
 	)
 	(polyline
 		(pts
-			(xy 198.12 38.1) (xy 199.39 38.1)
+			(xy 190.5 38.1) (xy 199.39 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3789,7 +3789,7 @@
 	)
 	(polyline
 		(pts
-			(xy 198.12 49.53) (xy 199.39 49.53)
+			(xy 190.5 50.8) (xy 199.39 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3819,7 +3819,7 @@
 	)
 	(polyline
 		(pts
-			(xy 83.82 77.47) (xy 83.82 113.03)
+			(xy 83.82 77.47) (xy 83.82 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3839,7 +3839,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.5 36.83) (xy 191.77 36.83)
+			(xy 190.5 38.1) (xy 194.31 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4129,7 +4129,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.09 113.03) (xy 83.82 113.03)
+			(xy 85.09 114.3) (xy 83.82 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4191,7 +4191,7 @@
 	)
 	(text "GFS is the output of the lock conditions of frame sync"
 		(exclude_from_sim no)
-		(at 199.136 56.388 0)
+		(at 199.644 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4200,9 +4200,9 @@
 		)
 		(uuid "88acc9a2-099c-4af5-877c-1b27ae380f04")
 	)
-	(text "To IFU connector on pin B4, A12, A14\nSBSY (Block synchronization) connected to micro's interrupt input\nSBCK comes from IFU\nPW is Subcode data P to W (8-bits)"
+	(text "Subcode signals to IFU connector on pin B4, A12, A14\nSBSY (Block synchronization) also connected to MCU's interrupt input\nSBCK comes from IFU\nPW is Subcode data P to W (8-bits)"
 		(exclude_from_sim no)
-		(at 192.786 32.766 0)
+		(at 194.818 29.972 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4222,9 +4222,9 @@
 		)
 		(uuid "8b1214af-38ab-4512-a10c-7747f4cddd91")
 	)
-	(text "IOs connected to micro IC 108\nSQCK is an input when SQEX=H\nAll subcode Q related signals\n2 possible modes: \"10111\" or \"00001\", with the latter being the normal mode\nwhere XIN = 8MHz, Digital filter is ON, audio is send via serial output\nAudio cata is always using 2's complement output format\n"
+	(text "IOs connected to MCU\nSQCK is an input when SQEX=H\nAll subcode Q related signals\n2 possible modes: \"10000\" (normal audio)\nwhere XIN = 8MHz, Digital filter is ON, audio is send via serial output\nAudio cata is always using 2's complement output format\n\"11101\"(test mode as far as I can tell), with DF off, parallel data, 2's\nperhaps an undefined CD ROM mode as not listed in KS5990 datasheet\n"
 		(exclude_from_sim no)
-		(at 200.406 43.688 0)
+		(at 200.66 45.466 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4235,7 +4235,7 @@
 	)
 	(text "CDR-30 (older revision used CXD1135 with external RAM IC107 HM6116\ninstead but seemed to be the same). CXD1167 must have built in RAM\n- Edit: some CDR-30As also come with CXD1135 + RAM"
 		(exclude_from_sim no)
-		(at 112.014 25.654 0)
+		(at 96.266 22.352 0)
 		(effects
 			(font
 				(size 1.27 1.27)

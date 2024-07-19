@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PC-Engine CDR-30A (CD-ROM2) Schematics - MAIN PWR")
-		(date "2024-05-03")
-		(rev "0.1")
+		(date "2024-07-19")
+		(rev "0.2")
 		(company "Author: Regis Galland")
 	)
 	(lib_symbols
@@ -5572,6 +5572,16 @@
 			)
 		)
 		(uuid "4116b65f-39da-4368-ba19-5ad6d722f03c")
+	)
+	(text "Pitch is 1.2mm"
+		(exclude_from_sim no)
+		(at 52.578 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41268c01-af1d-400a-b672-ea2866060b2e")
 	)
 	(text "K"
 		(exclude_from_sim no)

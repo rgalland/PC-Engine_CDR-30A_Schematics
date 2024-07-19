@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "PC-Engine CDR-30A (CD-ROM2) Schematics - MAIN PWR")
-		(date "2024-05-03")
-		(rev "0.1")
+		(date "2024-07-19")
+		(rev "0.2")
 		(company "Author: Regis Galland")
 	)
 	(lib_symbols
