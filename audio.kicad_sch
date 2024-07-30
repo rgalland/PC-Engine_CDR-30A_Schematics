@@ -7846,7 +7846,7 @@
 		)
 		(uuid "126e3b54-9e00-4441-8094-76efee07aa3a")
 	)
-	(hierarchical_label "~{MUTE_EN}"
+	(hierarchical_label "AUDIO_EN"
 		(shape input)
 		(at 93.98 147.32 0)
 		(fields_autoplaced yes)
@@ -7894,7 +7894,7 @@
 		)
 		(uuid "57cc5b98-1b6d-4f19-96b0-a95258d46417")
 	)
-	(hierarchical_label "~{GROOVE}"
+	(hierarchical_label "~{DEMP}"
 		(shape input)
 		(at 378.46 55.88 0)
 		(fields_autoplaced yes)

@@ -3323,7 +3323,7 @@
 		(uuid "528f6de2-09b8-4b6a-9f2a-583a2ead4c62")
 	)
 	(junction
-		(at 119.38 113.03)
+		(at 119.38 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6989ce2d-e1f0-448e-bb5b-ebc8056041f4")
@@ -3954,7 +3954,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 113.03) (xy 119.38 129.54)
+			(xy 119.38 111.76) (xy 119.38 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4044,7 +4044,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 119.38 113.03)
+			(xy 119.38 93.98) (xy 119.38 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4254,7 +4254,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 113.03) (xy 102.87 113.03)
+			(xy 80.01 111.76) (xy 102.87 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4774,7 +4774,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 113.03) (xy 113.03 113.03)
+			(xy 119.38 111.76) (xy 113.03 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4784,7 +4784,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 74.93) (xy 80.01 113.03)
+			(xy 80.01 74.93) (xy 80.01 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5286,7 +5286,7 @@
 		(uuid "62159f8d-495f-4150-af2e-61e34cfbb041")
 	)
 	(label "STOP"
-		(at 88.9 113.03 0)
+		(at 88.9 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6239,7 +6239,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 107.95 113.03 0)
+		(at 107.95 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6248,7 +6248,7 @@
 		(fields_autoplaced yes)
 		(uuid "2869e7a5-da9c-414b-b9f9-82a1659f0517")
 		(property "Reference" "S401"
-			(at 107.95 105.9645 0)
+			(at 107.95 104.6945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6256,7 +6256,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 107.95 108.3888 0)
+			(at 107.95 107.1188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6264,7 +6264,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 107.95 107.95 0)
+			(at 107.95 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,7 +6273,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 107.95 0)
+			(at 107.95 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,7 +6282,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 107.95 113.03 0)
+			(at 107.95 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)

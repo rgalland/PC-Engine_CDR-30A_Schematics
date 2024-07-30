@@ -2026,7 +2026,7 @@
 		)
 		(uuid "034b9614-2f69-4285-9444-af905f3d6135")
 	)
-	(label "~{GROOVE}"
+	(label "~{DEMP}"
 		(at 73.66 68.58 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2114,7 +2114,7 @@
 		)
 		(uuid "1deed37a-5da6-4614-99c7-327e19160f98")
 	)
-	(label "IC108_PB2"
+	(label "FAST_SLED"
 		(at 97.79 166.37 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2840,7 +2840,7 @@
 		)
 		(uuid "f1414b95-a58d-41e0-ba03-c0162b1f33c5")
 	)
-	(label "~{MUTE_EN}"
+	(label "AUDIO_EN"
 		(at 73.66 66.04 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3091,7 +3091,7 @@
 			)
 			(uuid "63856e4e-d0be-4d27-94c8-62d9488e8f75")
 		)
-		(pin "~{GROOVE}" output
+		(pin "~{DEMP}" output
 			(at 63.5 68.58 0)
 			(effects
 				(font
@@ -3101,7 +3101,7 @@
 			)
 			(uuid "7a29383d-c9a7-4a2e-bd25-5ba431e2bfcf")
 		)
-		(pin "IC108_PB2" output
+		(pin "FAST_SLED" output
 			(at 63.5 166.37 0)
 			(effects
 				(font
@@ -3111,7 +3111,7 @@
 			)
 			(uuid "e7ff9761-e703-4609-a308-3cbb81c16e5a")
 		)
-		(pin "~{MUTE_EN}" output
+		(pin "AUDIO_EN" output
 			(at 63.5 66.04 0)
 			(effects
 				(font
@@ -3497,7 +3497,7 @@
 			)
 			(uuid "b524697f-a25e-4001-9986-63b466d00e63")
 		)
-		(pin "IC108_PB2" input
+		(pin "FAST_SLED" input
 			(at 241.3 157.48 180)
 			(effects
 				(font
@@ -3675,7 +3675,7 @@
 			)
 			(uuid "dee33bb5-10cf-4b2e-9701-2cee0175cc10")
 		)
-		(pin "~{MUTE_EN}" input
+		(pin "AUDIO_EN" input
 			(at 88.9 66.04 180)
 			(effects
 				(font
@@ -3715,7 +3715,7 @@
 			)
 			(uuid "7f09ac48-f7af-4f97-8411-dd74ff1c039c")
 		)
-		(pin "~{GROOVE}" input
+		(pin "~{DEMP}" input
 			(at 88.9 68.58 180)
 			(effects
 				(font
