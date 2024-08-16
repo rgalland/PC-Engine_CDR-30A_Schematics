@@ -1981,7 +1981,7 @@
 		)
 		(uuid "fbb6252d-91ca-44bf-bb40-6b84e2641497")
 	)
-	(text "Notes on discrete components:\nSOT23 Diode with P marking = KKA\nSOT23 Diode with N marking = AAK\nSOT23 Transistor with 24 Marking = NPN with 10k, 10k built-in resistors like DTC114ECA\nSOT23 Transistor with 15 Marking = PNP with 22k, 22k built-in resistors like DTA124ECA\nSOT23 Transistor with AAR22 Marking = NPN BEC\nSOT23 Transistor with BR22 Marking = NPN BEC\n\nMentions some differences between the CDR-30A and the older CDR-30 revision."
+	(text "Notes on discrete components:\nSOT23 Diode with P marking = KKA\nSOT23 Diode with N marking = AAK\nSOT23 Transistor with 24 Marking = NPN with 10k, 10k built-in resistors like DTC114ECA\nSOT23 Transistor with 14 Marking = PNP with 10k, 10k built-in resistors like DTA114ECA\nSOT23 Transistor with 15 Marking = PNP with 22k, 22k built-in resistors like DTA124ECA\nSOT23 Transistor with AAR22 Marking = NPN BEC\nSOT23 Transistor with BR22 Marking = NPN BEC\n\nMentions some differences between the CDR-30A and the older CDR-30 revision."
 		(exclude_from_sim no)
 		(at 16.764 -1.778 0)
 		(effects

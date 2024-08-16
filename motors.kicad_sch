@@ -1796,8 +1796,8 @@
 			)
 			(symbol "BA6290A_0_0"
 				(rectangle
-					(start -19.05 0)
-					(end 31.115 24.13)
+					(start -19.05 24.13)
+					(end 27.94 0)
 					(stroke
 						(width 0.1524)
 						(type default)

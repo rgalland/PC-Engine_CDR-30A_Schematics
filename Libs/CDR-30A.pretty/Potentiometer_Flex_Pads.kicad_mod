@@ -1,0 +1,179 @@
+(footprint "Potentiometer_Flex_Pads"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Potentiometer Pads, 3 Pos")
+	(tags "Potentiometer Bourns TC33X Vertical")
+	(property "Reference" "REF**"
+		(at 0 -3.35 0)
+		(layer "F.SilkS")
+		(uuid "7c9819aa-652a-4aa4-a717-c57cb602a23e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Flex_Pads"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "abaf343f-28e9-495b-9e25-911c24108dc8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Potentiometer_Flex_Pads"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6766a539-f967-42ce-a5ee-b1b5071ceb5b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d3c7e6b-22b8-4415-b6ad-ba87a0b52579")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc9a2883-b7ed-42e7-8275-6b2001205965")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.85 -2.45)
+		(end 1.95 -2.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "218bf938-1345-4dde-9cb7-bef3c7e736f9")
+	)
+	(fp_line
+		(start -1.85 0)
+		(end -1.85 -2.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e3172a6-92bd-4224-b0a1-de5729d9b27d")
+	)
+	(fp_line
+		(start -1.65 0)
+		(end -1.85 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99c1dcb6-3905-466f-ae14-a862b5f51b92")
+	)
+	(fp_line
+		(start -1.65 4.05)
+		(end -1.65 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8d2a533-d0f7-4671-86b8-4f8efc99d163")
+	)
+	(fp_line
+		(start 1.75 4.05)
+		(end -1.65 4.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af75f320-13fe-4926-b240-c19a38e0e853")
+	)
+	(fp_line
+		(start 1.75 4.05)
+		(end 1.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b365ba2-d6d6-4197-a7e1-546a43d5c1b5")
+	)
+	(fp_line
+		(start 1.95 -2.45)
+		(end 1.95 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "67f04c9a-bfc5-4674-954b-57892015c359")
+	)
+	(fp_line
+		(start 1.95 0)
+		(end 1.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be03392e-11f7-40aa-a5ef-cdb45f86e020")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "337921b0-b921-492f-8a62-cb7690893e69")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.3 -1.4)
+		(size 1.2 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d1ca1a47-00e1-48d2-87e6-b072037ea86a")
+	)
+	(pad "2" smd rect
+		(at -1.2 -1.6)
+		(size 1.2 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c10f0f1f-4179-4f41-9534-c58ef1932a0b")
+	)
+	(pad "3" smd rect
+		(at 0 3)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a1bbd6dc-d81b-49da-af73-b32329ec439e")
+	)
+)

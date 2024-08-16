@@ -1,0 +1,4753 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a28aac45-9982-4e07-be24-4865a575fa16")
+	(paper "A4")
+	(title_block
+		(title "KSS-220A Flexible PCBs")
+		(date "2024-08-16")
+		(rev "0.1")
+	)
+	(lib_symbols
+		(symbol "PC-Engine_CDR-30:Diode_Flex"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Diode_Flex"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CDR-30A:Diode_Flex_Pads"
+				(at 0 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at -0.254 -5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 5.334 -5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Diode_Flex_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Diode_Flex_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PC-Engine_CDR-30:Flex_PCB_Edge_Conn_01x12_P1.25mm"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN?"
+				(at -3.556 16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Flex_PCB_Edge_Conn_01x12_P1.25mm"
+				(at 0.254 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CDR-30A:Flexible_PCB_Conn_1x12_P1.25mm"
+				(at -1.016 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Flex PCB Edge connector, 12 Pos, 1.25mm Pitch"
+				(at -0.508 -25.146 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Flex_PCB_Edge_Conn_01x12_P1.25mm_1_1"
+				(arc
+					(start 0 -14.732)
+					(mid -0.5058 -15.24)
+					(end 0 -15.748)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -12.192)
+					(mid -0.5058 -12.7)
+					(end 0 -13.208)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -9.652)
+					(mid -0.5058 -10.16)
+					(end 0 -10.668)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -7.112)
+					(mid -0.5058 -7.62)
+					(end 0 -8.128)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -15.24) (xy -0.508 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -12.7) (xy -0.508 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy -0.508 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -0.508 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 10.16) (xy -0.508 10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 12.7) (xy -0.508 12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.588)
+					(mid -0.5058 5.08)
+					(end 0 4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 8.128)
+					(mid -0.5058 7.62)
+					(end 0 7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 10.668)
+					(mid -0.5058 10.16)
+					(end 0 9.652)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 13.208)
+					(mid -0.5058 12.7)
+					(end 0 12.192)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PC-Engine_CDR-30:Flex_PCB_Edge_Conn_01x4_P1.25mm"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Flex_PCB_Edge_Conn_01x4_P1.25mm"
+				(at 0 -17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CDR-30A:Flexible_PCB_Conn_1x4_P1.25mm"
+				(at 0.254 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.508 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Flex Edge Connector, single row, 4P, P1.25mm"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector fles 4P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Flex_PCB_Edge_Conn_01x4_P1.25mm_1_1"
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0.762 -3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0.762 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -3.302)
+					(mid 0.7642 -3.81)
+					(end 1.27 -4.318)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -0.762)
+					(mid 0.7642 -1.27)
+					(end 1.27 -1.778)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 1.778)
+					(mid 0.7642 1.27)
+					(end 1.27 0.762)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 4.318)
+					(mid 0.7642 3.81)
+					(end 1.27 3.302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 3.81 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -3.81 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PC-Engine_CDR-30:Focus_Tracking_Coil_Pads"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Focus_Tracking_Coil_Pads"
+				(at 0.254 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CDR-30A:Focus_Tracking_Coil_Pads"
+				(at 0 -18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Focus and T racking Coil Pads, 4 Pos"
+				(at 0.762 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Focus_Tracking_Coil_Pads_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 0.127)
+					(end 0.8636 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PC-Engine_CDR-30:Laser_Diode_Flex_Conn_3P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Laser_Diode_Flex_Conn_3P"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CDR-30A:Laser_Diode_Pads"
+				(at -0.254 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.254 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Laser Diode Flex Conn 3P"
+				(at -0.508 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Laser_Diode_Flex_Conn_3P_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "PD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "LD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PC-Engine_CDR-30:MountingHole_Flex_Pad_MP"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Flex_Pad_MP"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CDR-30A:MountingHole_1.6mm_Pad"
+				(at -0.254 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -0.254 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection as pad named MP"
+				(at -0.508 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Flex_Pad_MP_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Flex_Pad_MP_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PC-Engine_CDR-30:Photodetector_Flex_Conn"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Photodetector_Flex_Conn"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CDR-30A:FLEX_SOIC-LIKE_8_3.9x4.9mm_P1.27mm"
+				(at 1.016 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.254 -9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Photodetector Flex Conn 02x04 Odd_Even 8Pos 1.27mm pitch"
+				(at 0.508 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Photodetector_Flex_Conn_1_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 3.81 0)
+					(length 3.81)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 3.81 180)
+					(length 3.81)
+					(name "F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 3.81)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 1.27 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.81 0)
+					(length 3.81)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PC-Engine_CDR-30:R_Potentiometer_Flex"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Flex"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CDR-30A:Potentiometer_Flex_Pads"
+				(at -0.254 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -18.542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer on lens flex PCB"
+				(at 0 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Flex_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Flex_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 55.88 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cd0f224-b5be-4ced-b52a-6de4ee46e997")
+	)
+	(junction
+		(at 64.77 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e3f58e4-87aa-4528-b230-ec06697ebbe9")
+	)
+	(junction
+		(at 55.88 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4429cfbc-8ec4-48e6-81ec-86271c9d6681")
+	)
+	(junction
+		(at 55.88 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "562fa61e-1f56-4cb4-ae85-db45775fb23d")
+	)
+	(junction
+		(at 64.77 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edd8435d-1004-4393-a625-3b82555cad8e")
+	)
+	(polyline
+		(pts
+			(xy 50.8 86.995) (xy 50.8 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0275bde2-813d-4279-bb45-0a340c3831fc")
+	)
+	(polyline
+		(pts
+			(xy 67.31 105.41) (xy 67.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039ee6f5-f454-43b4-9984-a818db80f2fa")
+	)
+	(polyline
+		(pts
+			(xy 60.96 99.06) (xy 60.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0547ce94-c231-4073-b0c4-0b73b6aae515")
+	)
+	(polyline
+		(pts
+			(xy 68.58 92.71) (xy 68.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0586a564-e8dc-4d0d-bd89-55f125d59635")
+	)
+	(polyline
+		(pts
+			(xy 201.93 97.79) (xy 201.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b30dc2-0cd9-4644-a28c-26d1c303b4e0")
+	)
+	(polyline
+		(pts
+			(xy 66.04 101.6) (xy 67.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4892eb-3949-4b4b-9321-6eb763218e8f")
+	)
+	(polyline
+		(pts
+			(xy 69.85 107.95) (xy 69.85 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7607ad-3ea1-4c9b-b0c5-68dcbd753d89")
+	)
+	(polyline
+		(pts
+			(xy 68.58 93.98) (xy 69.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a769b49-7362-452a-9195-72c4a7ef433b")
+	)
+	(polyline
+		(pts
+			(xy 49.53 86.36) (xy 49.53 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8ec438-3c29-498b-8e0c-f535958dd8c3")
+	)
+	(polyline
+		(pts
+			(xy 53.975 85.09) (xy 52.705 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3ab73e-cb3f-48fd-bd56-d541b2cbbf54")
+	)
+	(polyline
+		(pts
+			(xy 54.61 85.09) (xy 53.975 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa6b746-71b4-4584-9580-6cad023c79df")
+	)
+	(polyline
+		(pts
+			(xy 71.755 81.28) (xy 86.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e9c1d9-279d-4ad7-955a-67add186d44e")
+	)
+	(polyline
+		(pts
+			(xy 60.96 106.68) (xy 86.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1311acf5-49b6-49ed-9356-77e5e1ef17f0")
+	)
+	(polyline
+		(pts
+			(xy 69.215 82.55) (xy 70.485 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14bf4d1a-97ba-4a35-8727-caacae9c7d2c")
+	)
+	(polyline
+		(pts
+			(xy 60.96 93.98) (xy 86.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ec32ea-375d-4869-9541-8d6b8d7d4682")
+	)
+	(polyline
+		(pts
+			(xy 62.23 86.36) (xy 64.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16fe18d3-a5bf-48f8-a7d4-ec387f168755")
+	)
+	(polyline
+		(pts
+			(xy 201.93 91.44) (xy 214.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ddf7cd-7b57-41f3-8168-c5f4b1d1927c")
+	)
+	(polyline
+		(pts
+			(xy 80.01 71.12) (xy 39.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "1a5e2989-889d-479a-9908-6573df305fa7")
+	)
+	(polyline
+		(pts
+			(xy 66.04 106.68) (xy 67.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b17aca3-6d78-4dc7-83c3-1c64ca0b199e")
+	)
+	(polyline
+		(pts
+			(xy 45.72 86.995) (xy 48.26 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf17ca4-d57e-4cde-bd1a-25e1c9740651")
+	)
+	(wire
+		(pts
+			(xy 73.66 181.61) (xy 77.47 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d149f25-7143-434b-83e1-d0851792b5ba")
+	)
+	(wire
+		(pts
+			(xy 73.66 186.69) (xy 77.47 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e7e27cd-fa3e-47a5-af66-6ae7152f7d32")
+	)
+	(wire
+		(pts
+			(xy 91.44 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2066dd26-36ec-4d5d-b9e7-a33b90c9be6f")
+	)
+	(wire
+		(pts
+			(xy 64.77 35.56) (xy 67.31 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e73947-3a82-4010-ae76-5700295eef9e")
+	)
+	(polyline
+		(pts
+			(xy 67.31 100.33) (xy 67.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24520847-6b9a-41e9-ae58-93a60f5f26a8")
+	)
+	(polyline
+		(pts
+			(xy 64.77 86.995) (xy 63.5 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256f9916-e45e-421d-a4c5-abfd34135407")
+	)
+	(wire
+		(pts
+			(xy 91.44 83.82) (xy 96.52 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29bbe1e2-d617-464d-84e6-b294caac8286")
+	)
+	(polyline
+		(pts
+			(xy 74.93 88.9) (xy 86.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e7477c1-9039-462d-8cc2-6e3b084b6166")
+	)
+	(wire
+		(pts
+			(xy 91.44 101.6) (xy 96.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e85287d-f0fd-438a-9363-41f5a3370314")
+	)
+	(polyline
+		(pts
+			(xy 51.435 87.63) (xy 50.8 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e63bfc-f7e8-444a-bb27-71de77016729")
+	)
+	(wire
+		(pts
+			(xy 64.77 25.4) (xy 64.77 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310c207b-0f3d-4d51-9e39-7e6b83ab5dfc")
+	)
+	(wire
+		(pts
+			(xy 73.66 184.15) (xy 77.47 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31539055-ffc2-48ae-bff8-773eada84f80")
+	)
+	(polyline
+		(pts
+			(xy 68.58 93.98) (xy 69.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "316e6a4c-a0ca-49cf-8bee-3a780b4fbceb")
+	)
+	(wire
+		(pts
+			(xy 254 96.52) (xy 243.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337a4a62-f14a-4a99-8028-ac14a5ab3545")
+	)
+	(polyline
+		(pts
+			(xy 219.71 96.52) (xy 234.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359c6a94-4307-487d-8c97-b43dcce07b94")
+	)
+	(polyline
+		(pts
+			(xy 60.96 101.6) (xy 86.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39948b04-1ae7-4589-aae6-bc9814f6c816")
+	)
+	(polyline
+		(pts
+			(xy 67.31 90.17) (xy 67.31 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bafa968-6383-40f6-b38e-9757c39e63a8")
+	)
+	(polyline
+		(pts
+			(xy 57.15 83.82) (xy 57.15 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf62cd3-03a5-47bc-b3e8-5e306f6a796d")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8fb9ad-c540-4c38-a644-43ae0e0578b0")
+	)
+	(wire
+		(pts
+			(xy 96.52 189.23) (xy 92.71 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eafdee0-121c-4da3-86b0-8e31cb00abe6")
+	)
+	(polyline
+		(pts
+			(xy 189.23 105.41) (xy 219.71 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc0a7a6-16fe-49dc-ac5d-2bee5254afb1")
+	)
+	(polyline
+		(pts
+			(xy 45.72 85.725) (xy 48.26 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d0b007-307f-4e4f-a77e-3ce4c4547602")
+	)
+	(polyline
+		(pts
+			(xy 69.85 102.87) (xy 69.85 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43cb126f-9220-4bee-9f76-3517cd05fed1")
+	)
+	(polyline
+		(pts
+			(xy 60.96 104.14) (xy 86.36 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ce226e-683b-4a6b-9e43-a7702fddd80e")
+	)
+	(polyline
+		(pts
+			(xy 64.77 88.9) (xy 64.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d2f0a6-f89d-41f3-9e80-1fa6696b243b")
+	)
+	(polyline
+		(pts
+			(xy 86.36 83.82) (xy 66.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475b02e8-d145-4053-b861-69f915062d43")
+	)
+	(polyline
+		(pts
+			(xy 66.04 91.44) (xy 67.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499bd9cd-1e00-4a76-81ab-939c041a2230")
+	)
+	(polyline
+		(pts
+			(xy 66.04 105.41) (xy 66.04 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab42167-3f59-433a-999a-8186c45ba510")
+	)
+	(polyline
+		(pts
+			(xy 66.04 83.82) (xy 69.85 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec6d97b-c22a-4683-a864-3189d0633007")
+	)
+	(polyline
+		(pts
+			(xy 66.04 106.68) (xy 67.31 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5391ad27-33ff-451e-8407-f0cc643af0b2")
+	)
+	(polyline
+		(pts
+			(xy 69.85 81.915) (xy 70.485 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541ab61c-f061-4aa0-b504-941b046428fb")
+	)
+	(polyline
+		(pts
+			(xy 57.15 83.82) (xy 62.23 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5665760f-4e48-4cea-b390-c3a480507988")
+	)
+	(polyline
+		(pts
+			(xy 54.61 86.36) (xy 53.975 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56bed22a-b4f7-46ce-9d91-94cfce71c117")
+	)
+	(wire
+		(pts
+			(xy 64.77 35.56) (xy 64.77 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5745c1ae-cacd-43ea-851b-37294cf94898")
+	)
+	(wire
+		(pts
+			(xy 55.88 49.53) (xy 64.77 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586818ec-82ef-4b3e-be70-d94ba84eb76e")
+	)
+	(wire
+		(pts
+			(xy 91.44 99.06) (xy 114.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ff62d3-33fd-42e5-b895-db93a8c94ccc")
+	)
+	(wire
+		(pts
+			(xy 59.69 25.4) (xy 64.77 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fa84e2-a6f7-418f-90b8-d748353e318a")
+	)
+	(polyline
+		(pts
+			(xy 46.99 81.28) (xy 46.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8f8793-6124-4423-96e2-0590d46a3f17")
+	)
+	(polyline
+		(pts
+			(xy 62.23 83.82) (xy 62.23 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb1fce7-6583-422a-9ee6-e53a1b3b65c6")
+	)
+	(polyline
+		(pts
+			(xy 50.165 85.09) (xy 49.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61312b28-4cd2-4806-ab1e-ac16babe0841")
+	)
+	(polyline
+		(pts
+			(xy 189.23 83.82) (xy 217.17 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b41b29-af21-4159-baac-c138f8653b99")
+	)
+	(polyline
+		(pts
+			(xy 66.04 86.995) (xy 63.5 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d3c4cd-6ef0-4889-acc1-e07b3e9f3477")
+	)
+	(polyline
+		(pts
+			(xy 189.23 83.82) (xy 189.23 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69134f33-48da-4009-930d-5508d3a1548f")
+	)
+	(wire
+		(pts
+			(xy 38.1 25.4) (xy 52.07 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b518020-0ffb-43a1-89bb-be712a5be30d")
+	)
+	(polyline
+		(pts
+			(xy 55.88 85.725) (xy 58.42 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb37a8f-e6fb-42fc-9aa7-bf8d3b8799ca")
+	)
+	(polyline
+		(pts
+			(xy 68.58 104.14) (xy 69.85 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf7ec32-e678-4567-9dd3-4937d9db8506")
+	)
+	(polyline
+		(pts
+			(xy 50.8 85.725) (xy 50.8 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c361c61-f2c9-450b-88e4-2439f016668e")
+	)
+	(polyline
+		(pts
+			(xy 49.53 85.09) (xy 49.53 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9501f1-2789-432a-9ab9-f6485fd25f4e")
+	)
+	(wire
+		(pts
+			(xy 73.66 189.23) (xy 77.47 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733165b9-0623-4eb3-93ba-49ad3fba4eed")
+	)
+	(polyline
+		(pts
+			(xy 97.79 123.19) (xy 97.79 143.51)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "76fec932-c875-4242-ade4-cea3ca0de2b9")
+	)
+	(polyline
+		(pts
+			(xy 217.17 88.9) (xy 217.17 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ad002a-f3b9-4a3d-96b3-0a44317604e4")
+	)
+	(polyline
+		(pts
+			(xy 51.435 86.36) (xy 50.8 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e95912-632f-4fd2-84d3-5112d2a600e1")
+	)
+	(polyline
+		(pts
+			(xy 73.66 86.36) (xy 86.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a267db3-42fc-405e-9b25-71186cf4fc29")
+	)
+	(polyline
+		(pts
+			(xy 68.58 102.87) (xy 68.58 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df27a94-7d08-4156-9afa-afc7b7c0eb81")
+	)
+	(wire
+		(pts
+			(xy 91.44 109.22) (xy 96.52 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f549d91-333a-4130-b611-d5ffb8c188d9")
+	)
+	(wire
+		(pts
+			(xy 254 91.44) (xy 243.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809b614d-0261-45fb-8073-317c8b2dfd05")
+	)
+	(wire
+		(pts
+			(xy 55.88 33.02) (xy 55.88 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81eb1b09-eb3b-4ab4-b6d3-bb0eb91cd6b4")
+	)
+	(polyline
+		(pts
+			(xy 60.96 109.22) (xy 60.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f1595a-58b1-4724-bd0b-bd374280b150")
+	)
+	(polyline
+		(pts
+			(xy 97.79 123.19) (xy 80.01 123.19)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8627e3ae-ffa5-43e5-8511-124f1ab27356")
+	)
+	(polyline
+		(pts
+			(xy 74.93 99.06) (xy 86.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8710222e-7f94-4110-a3f0-ff7fbe290fc6")
+	)
+	(polyline
+		(pts
+			(xy 53.975 86.36) (xy 52.705 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891ab97a-69d7-48da-a013-0e6cf0e0f3b0")
+	)
+	(wire
+		(pts
+			(xy 254 88.9) (xy 243.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a876f37-10d9-4511-ab1a-a480c1515ef1")
+	)
+	(wire
+		(pts
+			(xy 91.44 106.68) (xy 96.52 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a4dcee-fbbd-466c-8da8-9fefd88b0b4f")
+	)
+	(polyline
+		(pts
+			(xy 66.04 90.17) (xy 66.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919192f0-efbe-453c-accd-8f3e464ae93f")
+	)
+	(polyline
+		(pts
+			(xy 46.99 83.82) (xy 46.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a5187a-735f-4a1d-ba24-b526d2ab108b")
+	)
+	(polyline
+		(pts
+			(xy 66.04 81.28) (xy 66.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96df07ce-c69e-4b4d-8ece-845f0d005b57")
+	)
+	(polyline
+		(pts
+			(xy 57.15 86.995) (xy 58.42 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97838d33-b54b-4f47-a705-e1a8fe975c74")
+	)
+	(polyline
+		(pts
+			(xy 52.705 87.63) (xy 52.705 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c85877-e54e-4433-ac97-4176ff284620")
+	)
+	(polyline
+		(pts
+			(xy 53.34 86.36) (xy 52.705 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a50cae3-950b-4f96-8ccc-13e7b4d44b0a")
+	)
+	(polyline
+		(pts
+			(xy 53.975 86.995) (xy 53.975 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a76ff04-3ba5-4ab1-8fb2-31700d2d664a")
+	)
+	(polyline
+		(pts
+			(xy 64.77 86.36) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b12331f-cb09-4d82-b987-fa37ea46d3c6")
+	)
+	(polyline
+		(pts
+			(xy 66.04 100.33) (xy 66.04 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e60e695-b8ba-4064-b1bb-820719e046cc")
+	)
+	(polyline
+		(pts
+			(xy 217.17 99.06) (xy 214.63 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd7856f-6458-4ee4-9240-3de549a245ff")
+	)
+	(polyline
+		(pts
+			(xy 46.99 86.995) (xy 48.26 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a301aeb5-788e-4ca5-80c2-c6f41d2db20c")
+	)
+	(wire
+		(pts
+			(xy 96.52 96.52) (xy 91.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4af999b-01db-4337-9725-0635891c8e08")
+	)
+	(polyline
+		(pts
+			(xy 50.8 87.63) (xy 49.53 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a665e9c4-3c26-434a-a87a-1bff0fba0e93")
+	)
+	(polyline
+		(pts
+			(xy 68.58 109.22) (xy 69.85 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7317db5-7bdb-4c0b-b3bf-c35c8c7701b4")
+	)
+	(polyline
+		(pts
+			(xy 69.85 81.915) (xy 69.85 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7de3786-d26f-4eae-86c6-5105e292f2b7")
+	)
+	(polyline
+		(pts
+			(xy 86.36 109.22) (xy 60.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85766fa-08d2-4afd-b8d1-233a7138112e")
+	)
+	(polyline
+		(pts
+			(xy 219.71 96.52) (xy 219.71 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87b9a6c-e874-417d-a4ca-656723ba3281")
+	)
+	(wire
+		(pts
+			(xy 96.52 91.44) (xy 91.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a0dec6-eb57-4794-9640-11e2dfd2cf87")
+	)
+	(polyline
+		(pts
+			(xy 53.34 87.63) (xy 52.705 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ba6538-206a-4f66-a7a7-0f041dd1eb87")
+	)
+	(polyline
+		(pts
+			(xy 201.93 99.06) (xy 214.63 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b063b4fb-5fa1-4aca-aae0-a542a8807d17")
+	)
+	(polyline
+		(pts
+			(xy 60.96 91.44) (xy 86.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07a8d2b-91a1-4b51-9fba-6f14beec6241")
+	)
+	(polyline
+		(pts
+			(xy 201.93 91.44) (xy 201.93 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bf23fc-fdea-40f8-b2ef-821e6611968c")
+	)
+	(polyline
+		(pts
+			(xy 234.95 91.44) (xy 237.49 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a52cda-8bd5-4915-a431-f0013910b383")
+	)
+	(polyline
+		(pts
+			(xy 68.58 104.14) (xy 69.85 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36e91ba-23e2-47dc-b92f-5d508c8c3ae8")
+	)
+	(polyline
+		(pts
+			(xy 60.96 99.06) (xy 60.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83d7727-2379-4e45-b9a4-3552ce304b28")
+	)
+	(polyline
+		(pts
+			(xy 189.23 90.17) (xy 189.23 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8964574-deb4-4551-9416-5a9e686be779")
+	)
+	(polyline
+		(pts
+			(xy 46.99 86.995) (xy 45.72 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbcbde54-b9e7-497b-a9ea-cc16455bfb0f")
+	)
+	(wire
+		(pts
+			(xy 64.77 33.02) (xy 67.31 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c11d8d75-dd30-4765-a3bb-9b148714a490")
+	)
+	(polyline
+		(pts
+			(xy 60.96 96.52) (xy 86.36 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1acee11-c655-4f50-8901-cd86232cda9f")
+	)
+	(polyline
+		(pts
+			(xy 80.01 123.19) (xy 80.01 71.12)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c2db03e2-9cf8-48d3-b22f-ec40773236ae")
+	)
+	(polyline
+		(pts
+			(xy 189.23 91.44) (xy 189.23 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45024d1-a5fc-4a79-99f5-07d5e248745e")
+	)
+	(wire
+		(pts
+			(xy 96.52 181.61) (xy 92.71 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57f1f60-88ec-4ccb-8a97-e5d387696c81")
+	)
+	(wire
+		(pts
+			(xy 55.88 48.26) (xy 55.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97c9760-9630-4e1d-ac38-7087236300bb")
+	)
+	(polyline
+		(pts
+			(xy 64.77 86.995) (xy 66.04 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad3cf26-cd7b-4141-b99a-544bbbe0e337")
+	)
+	(polyline
+		(pts
+			(xy 234.95 93.98) (xy 237.49 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1671bc-ffd5-41f4-ad41-0008ca80aed3")
+	)
+	(polyline
+		(pts
+			(xy 46.99 88.9) (xy 74.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd2d3f87-ad12-4946-8a85-ccff9b35e317")
+	)
+	(polyline
+		(pts
+			(xy 46.99 81.28) (xy 67.945 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf2f10b-d3c3-4729-977a-ada266f01ec2")
+	)
+	(wire
+		(pts
+			(xy 55.88 38.1) (xy 55.88 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cecb994a-4ac6-48f2-8775-7b140884ea39")
+	)
+	(wire
+		(pts
+			(xy 96.52 186.69) (xy 92.71 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0495291-09d2-4789-a2d2-82858e148777")
+	)
+	(polyline
+		(pts
+			(xy 39.37 71.12) (xy 39.37 143.51)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "d118e8ab-c959-4abc-b8e9-7b6ef9182fee")
+	)
+	(polyline
+		(pts
+			(xy 66.04 101.6) (xy 67.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e48302-6eae-483e-b1b6-5399fc74f9f7")
+	)
+	(polyline
+		(pts
+			(xy 53.975 85.725) (xy 53.975 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97c2835-1e9f-4416-8c35-f0a2dfcdcc09")
+	)
+	(polyline
+		(pts
+			(xy 66.04 91.44) (xy 67.31 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2de5b9-2097-41f1-88c5-ed43ab8ae854")
+	)
+	(polyline
+		(pts
+			(xy 68.58 107.95) (xy 68.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb7bc9e-aaa6-4f4f-b77b-d85714599672")
+	)
+	(polyline
+		(pts
+			(xy 234.95 96.52) (xy 237.49 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e179778b-187a-4d54-b505-14fb691345c1")
+	)
+	(wire
+		(pts
+			(xy 96.52 93.98) (xy 91.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ea70bb-b3bd-4afe-8c21-190e89aebfe8")
+	)
+	(wire
+		(pts
+			(xy 38.1 33.02) (xy 55.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3fa8d04-4856-459c-b73d-8288c9c5bcd0")
+	)
+	(wire
+		(pts
+			(xy 38.1 38.1) (xy 55.88 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e562d955-dea3-46f9-ad72-c086e0ec63bb")
+	)
+	(polyline
+		(pts
+			(xy 68.58 109.22) (xy 69.85 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e3072f-0766-4986-ad6a-9c9a6a34c3e1")
+	)
+	(polyline
+		(pts
+			(xy 217.17 88.9) (xy 237.49 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72f1ce2-a0e5-40d9-a1d4-ccdf480cc9d1")
+	)
+	(polyline
+		(pts
+			(xy 50.8 86.36) (xy 49.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa357f8-bedc-4cc5-b515-6e8f91079a2b")
+	)
+	(polyline
+		(pts
+			(xy 55.88 86.995) (xy 58.42 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc69ba2-a982-47ed-856d-099698c70b12")
+	)
+	(polyline
+		(pts
+			(xy 52.705 86.36) (xy 52.705 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd51b3e-238c-4075-a16d-cd9e6e6d68e5")
+	)
+	(polyline
+		(pts
+			(xy 57.15 86.995) (xy 55.88 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0139d0-cabb-46ef-8015-27a7fbbafc50")
+	)
+	(polyline
+		(pts
+			(xy 217.17 93.98) (xy 217.17 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeeb2762-a7e1-4a75-9623-0db3147b3f83")
+	)
+	(polyline
+		(pts
+			(xy 39.37 143.51) (xy 97.79 143.51)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ef20fe06-cfdd-4524-9ffb-b7eeb12f8a7f")
+	)
+	(polyline
+		(pts
+			(xy 214.63 91.44) (xy 234.95 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa6d5e3-d5e4-4608-8157-f1306012f288")
+	)
+	(polyline
+		(pts
+			(xy 50.165 86.36) (xy 49.53 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ed503d-2aca-4112-bc25-4bc2241602b0")
+	)
+	(wire
+		(pts
+			(xy 38.1 49.53) (xy 55.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2138f5d-806c-4363-8a1c-0d6f6eb69baf")
+	)
+	(wire
+		(pts
+			(xy 254 93.98) (xy 243.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f544a0c2-9e87-48e1-9c53-10892dd10179")
+	)
+	(polyline
+		(pts
+			(xy 69.85 92.71) (xy 69.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56c2700-a6fa-4132-8acc-e1a43597c7f2")
+	)
+	(polyline
+		(pts
+			(xy 217.17 93.98) (xy 234.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d2bf4d-fb70-4f93-a879-a18903c1cebb")
+	)
+	(wire
+		(pts
+			(xy 91.44 104.14) (xy 96.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b35a33-fa09-4a1b-b08e-953e2710b126")
+	)
+	(wire
+		(pts
+			(xy 91.44 86.36) (xy 96.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8cb8489-5976-46d2-84e1-07a130cb1b40")
+	)
+	(wire
+		(pts
+			(xy 55.88 38.1) (xy 67.31 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9b130b-d630-4874-b708-aa7b5973c152")
+	)
+	(wire
+		(pts
+			(xy 55.88 33.02) (xy 64.77 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb1a19ac-81d3-4309-b362-7e24188216e6")
+	)
+	(polyline
+		(pts
+			(xy 69.215 82.55) (xy 69.85 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc681f38-ea5a-4ac5-944b-122601941583")
+	)
+	(polyline
+		(pts
+			(xy 66.04 88.265) (xy 63.5 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdcd50b4-dfa9-4ae8-8dd8-50c204cfc664")
+	)
+	(arc
+		(start 201.93 95.25)
+		(mid 201.3099 94.6199)
+		(end 201.93 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0db38560-e474-4402-8de4-828cd687f759)
+	)
+	(arc
+		(start 69.85 86.36)
+		(mid 70.485 85.725)
+		(end 71.12 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 24899e29-b2ea-439c-b4e4-f28efcaf3511)
+	)
+	(arc
+		(start 68.58 86.36)
+		(mid 69.215 85.725)
+		(end 69.85 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5f765c47-a687-4d2d-b69f-5dc1d1f73204)
+	)
+	(arc
+		(start 201.93 93.98)
+		(mid 201.3099 93.3499)
+		(end 201.93 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6579e344-8dc0-4084-9840-dcd55ff059bd)
+	)
+	(arc
+		(start 201.93 97.79)
+		(mid 201.3099 97.1599)
+		(end 201.93 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6b1b00c6-3d09-45cb-96e5-68f33e4cb6b2)
+	)
+	(arc
+		(start 72.39 86.36)
+		(mid 73.025 85.725)
+		(end 73.66 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7672035d-628a-44c3-abc5-70a3ba5c63bc)
+	)
+	(arc
+		(start 201.93 96.52)
+		(mid 201.3099 95.8899)
+		(end 201.93 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f2e3bf9-ec9d-4bb6-8c9d-c629fefa2435)
+	)
+	(arc
+		(start 71.12 86.36)
+		(mid 71.755 85.725)
+		(end 72.39 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 827b7b3a-15c7-4f50-a712-7bae1d85ec02)
+	)
+	(circle
+		(center 57.15 86.36)
+		(radius 1.905)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 90dcfded-dd23-4d9b-8fca-17a4e8d31fa7)
+	)
+	(rectangle
+		(start 67.945 80.645)
+		(end 71.755 81.915)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b8ffba46-63be-49df-bd9b-a9fe273c6285)
+	)
+	(rectangle
+		(start 173.99 81.28)
+		(end 209.55 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bacbd134-cde1-40a8-a045-bf80d0cf09ad)
+	)
+	(circle
+		(center 46.99 86.36)
+		(radius 1.905)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid be40c81f-04e7-4ddd-8294-41487b7de1cd)
+	)
+	(rectangle
+		(start 44.45 78.74)
+		(end 74.93 111.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c2c75028-1227-46da-af66-cc88194e8c9d)
+	)
+	(arc
+		(start 189.23 90.17)
+		(mid 188.6099 89.5399)
+		(end 189.23 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d9015354-a542-4361-af3b-6266e65233b4)
+	)
+	(arc
+		(start 189.23 88.9)
+		(mid 188.6099 88.2699)
+		(end 189.23 87.63)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f8e4fb3c-76a4-4a2f-8cfd-082165e3d04d)
+	)
+	(arc
+		(start 189.23 86.36)
+		(mid 188.6099 85.7299)
+		(end 189.23 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fa35556e-4290-42d9-ba0e-0fc62a2c4732)
+	)
+	(rectangle
+		(start 156.21 59.69)
+		(end 214.63 110.49)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fa59bb3e-2304-4cf5-9a2b-f7e21bd98952)
+	)
+	(arc
+		(start 189.23 87.63)
+		(mid 188.6099 86.9999)
+		(end 189.23 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fca684f1-bb01-4504-bdb7-d941d4a3a76d)
+	)
+	(text "PHOTODETECTOR"
+		(exclude_from_sim no)
+		(at 83.058 170.688 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "0197dd57-e08a-4145-9b69-c941a69f71a1")
+	)
+	(text "G"
+		(exclude_from_sim no)
+		(at 77.216 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "023abac3-fe78-4e34-8215-d320655053ee")
+	)
+	(text "T-"
+		(exclude_from_sim no)
+		(at 212.09 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03423f6e-0d36-463a-8f9b-426e3f54e1c8")
+	)
+	(text "KSM-220 or KSM-162\nOptical Pick-Up Block\n(2/2)"
+		(exclude_from_sim no)
+		(at 185.674 70.866 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "39554d06-d4fa-44ba-b520-211dd50e115f")
+	)
+	(text "TRACKING\nCOIL"
+		(exclude_from_sim no)
+		(at 195.58 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43150777-644d-45b6-a025-c8c3e62b0975")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 77.216 108.458 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a4f508e-f28e-444a-911a-52671618c72f")
+	)
+	(text "PD"
+		(exclude_from_sim no)
+		(at 77.47 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5cdea06b-4eda-4df8-a5a6-54d40c5f1d02")
+	)
+	(text "KSM-220 or KSM-162\nOptical Pick-Up Block\n(1/2)"
+		(exclude_from_sim no)
+		(at 67.818 134.366 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "5d78a801-4a12-4bae-99db-ea748c3c9e2b")
+	)
+	(text "LASER DIODE"
+		(exclude_from_sim no)
+		(at 85.852 27.432 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "69f0e522-b20a-42dd-951e-c966bedf488c")
+	)
+	(text "E"
+		(exclude_from_sim no)
+		(at 77.216 93.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70165a43-6adb-4bfa-8d6c-82795c2bac29")
+	)
+	(text "VR"
+		(exclude_from_sim no)
+		(at 77.47 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8eed85e4-9dff-4bbd-9b1a-a46440047aeb")
+	)
+	(text "G"
+		(exclude_from_sim no)
+		(at 77.216 98.298 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "afb54c55-b4d0-4430-b5ef-359fc2c2213a")
+	)
+	(text "C"
+		(exclude_from_sim no)
+		(at 77.216 103.378 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b31c392e-907d-4a25-ab3f-a90e278f1e4d")
+	)
+	(text "VR and the two Grounds are not actually grounded on the KSS-220\nbut on the CDR-30 main board. To make things easier, we will ground\nthem on the replacement loom.\n"
+		(exclude_from_sim no)
+		(at 37.846 66.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b593165f-b6f0-4483-89eb-171cc9dc3a7e")
+	)
+	(text "T+"
+		(exclude_from_sim no)
+		(at 212.09 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc30e75f-e119-484d-8dbc-80fa06c1ad7c")
+	)
+	(text "Tracking and Focus\n"
+		(exclude_from_sim no)
+		(at 221.234 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0d90682-0c19-46a3-9444-6f80b1a2dea3")
+	)
+	(text "F+"
+		(exclude_from_sim no)
+		(at 212.09 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d221fffd-7d87-4f1b-97fe-c2ab4fd2e8a4")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 77.216 105.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d81980f8-145c-4231-9760-9794d204017f")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 77.216 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e1a37ed6-2f46-466b-ba25-c5e7f782fa8e")
+	)
+	(text "F-"
+		(exclude_from_sim no)
+		(at 212.344 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5706531-7bbf-410a-a212-b08cffdea5b9")
+	)
+	(text "LD"
+		(exclude_from_sim no)
+		(at 77.47 85.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e7c7f960-3acf-450c-9444-f7eb805d1d6b")
+	)
+	(text "FOCUS\nCOIL"
+		(exclude_from_sim no)
+		(at 183.896 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e9212f4a-83e9-4ea1-a521-9a1f86d10302")
+	)
+	(text "K"
+		(exclude_from_sim no)
+		(at 77.216 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f29b9645-d360-4835-993e-d56fdc6a4380")
+	)
+	(text "F"
+		(exclude_from_sim no)
+		(at 77.216 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe26251c-83f0-4a18-965c-310cc901a679")
+	)
+	(label "B"
+		(at 96.52 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1085a6aa-90a1-434a-af98-2730863ecc97")
+	)
+	(label "LD"
+		(at 96.52 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1beb022f-1740-423b-8154-f4076973fb2d")
+	)
+	(label "A"
+		(at 96.52 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3b8b56f1-e387-4fe4-ba32-c4c9aa9c0dc9")
+	)
+	(label "A"
+		(at 96.52 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "470a3836-652b-4cda-b6fc-d4415b663aeb")
+	)
+	(label "D"
+		(at 96.52 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f86df2f-f088-4399-9ff4-97107f0e2ec9")
+	)
+	(label "GND3"
+		(at 114.3 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a5e2c38-f334-4fd0-bd91-ab89a297a8b4")
+	)
+	(label "PD"
+		(at 38.1 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66870e90-fedb-49e1-96d7-a655bf07dbfd")
+	)
+	(label "C"
+		(at 73.66 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69c4de42-3af7-436f-94ac-8032d2b4abe7")
+	)
+	(label "GND1"
+		(at 114.3 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "864afdda-d04b-48b0-a7af-bb800873e7d3")
+	)
+	(label "LD"
+		(at 38.1 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d02929d-e110-4062-ba0d-584f768b4e15")
+	)
+	(label "PD"
+		(at 96.52 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9088cb55-9887-4041-8bab-be45954d0523")
+	)
+	(label "GND2"
+		(at 38.1 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4c17924-e93c-496d-9b7f-dfaaad78b32b")
+	)
+	(label "F"
+		(at 96.52 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9f22b53-134f-4637-a9ef-b9f4c389c0ab")
+	)
+	(label "K"
+		(at 73.66 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4fc6273-c3c3-44a6-8226-caeec14f7ca7")
+	)
+	(label "F"
+		(at 96.52 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b89899fd-1b6c-4bce-a7a6-a82f9a86a797")
+	)
+	(label "E"
+		(at 96.52 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcf6db1b-8dc8-4346-a5c1-dc3891bcd42b")
+	)
+	(label "GND2"
+		(at 114.3 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1994873-e384-46bb-926c-155c45322099")
+	)
+	(label "E"
+		(at 73.66 189.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0a2a1c2-48d5-4d0f-80ed-53b30db3e733")
+	)
+	(label "B"
+		(at 96.52 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2ea2fb0-3127-431c-9002-830ec3dee520")
+	)
+	(label "D"
+		(at 73.66 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed94f9d7-67da-4b74-84a7-f181f1fdf67a")
+	)
+	(label "GND3"
+		(at 38.1 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee40a62d-f1dc-4822-910c-eed6c6a6c0b8")
+	)
+	(label "C"
+		(at 96.52 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6d9ac82-340a-4d47-9255-bbdfde006e4a")
+	)
+	(label "K"
+		(at 96.52 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fde91944-316e-46eb-8872-7ae141509cea")
+	)
+	(symbol
+		(lib_id "PC-Engine_CDR-30:Photodetector_Flex_Conn")
+		(at 85.09 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08f16db4-833c-4d04-a5b6-d24a94f6d917")
+		(property "Reference" "CN3"
+			(at 85.09 176.1955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Photodetector_Flex_Conn"
+			(at 85.09 178.6198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CDR-30A:FLEX_SOIC-LIKE_8_3.9x4.9mm_P1.27mm"
+			(at 86.106 200.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.344 195.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Photodetector Flex Conn 02x04 Odd_Even 8Pos 1.27mm pitch"
+			(at 85.598 197.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d98c90fa-49ca-45bd-921c-be2748cddf2c")
+		)
+		(pin "8"
+			(uuid "e7cead12-46e8-40fb-bb82-a7d3e9577205")
+		)
+		(pin "2"
+			(uuid "661ddf08-bac4-442c-83d4-6a51b85ee394")
+		)
+		(pin "7"
+			(uuid "b4927f94-5293-4cc5-bfe2-819023317576")
+		)
+		(pin "6"
+			(uuid "1d6601a9-1031-487b-8198-d09925ed477c")
+		)
+		(pin "3"
+			(uuid "1135746a-5e42-43d3-ac60-fc5f15db1308")
+		)
+		(pin "5"
+			(uuid "8f179df2-c9e9-44c1-a81a-1a4ff2eb3dcc")
+		)
+		(pin "4"
+			(uuid "022b44c1-6434-4235-9a73-e1e9b0a1fe5e")
+		)
+		(instances
+			(project "KSS-220A"
+				(path "/a28aac45-9982-4e07-be24-4865a575fa16"
+					(reference "CN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PC-Engine_CDR-30:R_Potentiometer_Flex")
+		(at 55.88 25.4 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "387b90de-6e02-45c4-9b31-b121797de7e3")
+		(property "Reference" "RV1"
+			(at 55.88 19.6737 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer_Flex"
+			(at 55.88 22.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CDR-30A:Potentiometer_Flex_Pads"
+			(at 55.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer on lens flex PCB"
+			(at 55.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e25edf41-359d-4d75-a56f-4b6e29f2e4ba")
+		)
+		(pin "3"
+			(uuid "474b28ed-032b-4b17-b666-e44a0b1f6025")
+		)
+		(pin "2"
+			(uuid "765b6ebc-2184-4257-94f9-acdf45ff7a0e")
+		)
+		(instances
+			(project "KSS-220A"
+				(path "/a28aac45-9982-4e07-be24-4865a575fa16"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PC-Engine_CDR-30:Diode_Flex")
+		(at 55.88 44.45 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e943d58-a961-4b70-b50f-fcbd016722bc")
+		(property "Reference" "D1"
+			(at 51.816 43.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Diode_Flex"
+			(at 49.022 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CDR-30A:Diode_Flex_Pads"
+			(at 67.818 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.992 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 61.722 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 61.722 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 65.024 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e12b08ef-afca-427b-918e-6bed1544de6b")
+		)
+		(pin "2"
+			(uuid "8412ea70-eb10-4c60-83ad-ad937b27ae6c")
+		)
+		(instances
+			(project "KSS-220A"
+				(path "/a28aac45-9982-4e07-be24-4865a575fa16"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PC-Engine_CDR-30:Flex_PCB_Edge_Conn_01x12_P1.25mm")
+		(at 86.36 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74b57486-58ef-432f-ae32-d3ac63dd842d")
+		(property "Reference" "CN4"
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Flex_PCB_Edge_Conn_01x12_P1.25mm"
+			(at 99.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CDR-30A:Flexible_PCB_Conn_1x12_P1.25mm"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Flex PCB Edge connector, 12 Pos, 1.25mm Pitch"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf8683b3-c101-4c24-a995-2b97304f54e3")
+		)
+		(pin "10"
+			(uuid "8d725642-3539-475f-987f-715885a0b2fe")
+		)
+		(pin "11"
+			(uuid "c7e69b37-aa48-4a0c-9b4d-5ce68e650de6")
+		)
+		(pin "12"
+			(uuid "dc39da97-e41a-43ec-a6c7-faa5ff5a5aaa")
+		)
+		(pin "2"
+			(uuid "2b32d4eb-8126-41c3-8c7a-d5d9fb7551d4")
+		)
+		(pin "3"
+			(uuid "1fb9bdbc-e8a0-44e4-b22a-75b3be8dbced")
+		)
+		(pin "4"
+			(uuid "7c4362a0-21a9-423b-8649-dc9c46861b38")
+		)
+		(pin "5"
+			(uuid "4a3f228a-0351-4cf4-844d-0ee96ac80a7f")
+		)
+		(pin "6"
+			(uuid "2ef0c789-2393-4499-83c1-f87a2c90a4a8")
+		)
+		(pin "7"
+			(uuid "b42ca193-ae1b-4c0a-b51c-3a960fc54261")
+		)
+		(pin "8"
+			(uuid "69f546a6-46cb-4295-a78f-85f0765e1087")
+		)
+		(pin "9"
+			(uuid "1b5ed7ff-f946-4d85-be73-a09ad4d29307")
+		)
+		(instances
+			(project "KSS-220A"
+				(path "/a28aac45-9982-4e07-be24-4865a575fa16"
+					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PC-Engine_CDR-30:Flex_PCB_Edge_Conn_01x4_P1.25mm")
+		(at 240.03 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85e95a83-3c8b-44c2-9e7d-438be19d45f8")
+		(property "Reference" "CN1"
+			(at 240.03 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Flex_PCB_Edge_Conn_01x4_P1.25mm"
+			(at 240.03 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CDR-30A:Flexible_PCB_Conn_1x4_P1.25mm"
+			(at 239.776 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 239.522 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Flex Edge Connector, single row, 4P, P1.25mm"
+			(at 240.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b0809dc-1526-4c97-924e-b8ec8cd6083d")
+		)
+		(pin "2"
+			(uuid "cb3f7f84-99f7-4e6e-b6e3-e3356eafa98d")
+		)
+		(pin "3"
+			(uuid "8e30938f-8e4d-4648-bedc-d9587a084277")
+		)
+		(pin "4"
+			(uuid "c020844e-197f-479b-8769-cb1f2920be32")
+		)
+		(instances
+			(project "KSS-220A"
+				(path "/a28aac45-9982-4e07-be24-4865a575fa16"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PC-Engine_CDR-30:Focus_Tracking_Coil_Pads")
+		(at 259.08 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3ebfc5b-d52d-4427-b37f-84d6c3df4776")
+		(property "Reference" "CN2"
+			(at 259.08 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Focus_Tracking_Coil_Pads"
+			(at 259.08 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CDR-30A:Focus_Tracking_Coil_Pads"
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Focus and T racking Coil Pads, 4 Pos"
+			(at 258.318 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "789df431-a68f-4fc1-b78f-3b586884e03c")
+		)
+		(pin "2"
+			(uuid "ba08b78d-5899-4c65-9ee5-375f767b8577")
+		)
+		(pin "3"
+			(uuid "78feb400-23af-474c-8125-128e4f0489de")
+		)
+		(pin "4"
+			(uuid "45a68e37-6806-4270-848d-88749a5fe1a9")
+		)
+		(instances
+			(project "KSS-220A"
+				(path "/a28aac45-9982-4e07-be24-4865a575fa16"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PC-Engine_CDR-30:MountingHole_Flex_Pad_MP")
+		(at 67.31 49.53 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c756727d-6622-4940-8d79-91c925db4131")
+		(property "Reference" "H1"
+			(at 71.12 48.3178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Flex_Pad_MP"
+			(at 71.12 50.7421 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CDR-30A:MountingHole_1.6mm_Pad"
+			(at 58.42 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 55.88 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "1c08de43-766f-40ec-b917-f5904c36ba37")
+		)
+		(instances
+			(project ""
+				(path "/a28aac45-9982-4e07-be24-4865a575fa16"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PC-Engine_CDR-30:Laser_Diode_Flex_Conn_3P")
+		(at 72.39 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e845c3b7-357f-4fb1-8bdc-bb4420fa0268")
+		(property "Reference" "CN5"
+			(at 78.232 34.3478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Laser_Diode_Flex_Conn_3P"
+			(at 78.232 36.7721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CDR-30A:Laser_Diode_Pads"
+			(at 72.136 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.644 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Laser Diode Flex Conn 3P"
+			(at 71.882 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a67dede3-7612-413c-9fc2-f8ab22ec7dc9")
+		)
+		(pin "2"
+			(uuid "060dc8ea-9c47-4bbe-9d3c-aeae2a6b87cc")
+		)
+		(pin "1"
+			(uuid "605ca20f-a2dc-48ea-8499-525f4f1df917")
+		)
+		(instances
+			(project "KSS-220A"
+				(path "/a28aac45-9982-4e07-be24-4865a575fa16"
+					(reference "CN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
