@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "CDR-30A")(type "KiCad")(uri "${KIPRJMOD}/Libs/CDR-30A.pretty")(options "")(descr ""))
-)

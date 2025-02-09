@@ -691,8 +691,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 3.81 0)
+		(property "Footprint" "PC-Engine_CDR-30A:TX25-30P-LT-H1E"
+			(at 5.334 -39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1219,7 @@
 		(symbol "30P_ELCO_5061_4_1"
 			(rectangle
 				(start 3.81 0)
-				(end 13.97 -20.32)
+				(end 13.97 -24.13)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1347,6 +1347,206 @@
 					)
 				)
 				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -21.59 180)
+				(length 5.08)
+				(name "MH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AudioJack3"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jack_3.5mm_Horizontal"
+			(at 0.508 -6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 0.254 -9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Jack*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AudioJack3_0_1"
+			(rectangle
+				(start -5.08 -5.08)
+				(end -6.35 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.54 3.81)
+				(end -5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "AudioJack3_1_1"
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2069,7 +2269,226 @@
 			)
 		)
 	)
-	(symbol "CXA1081"
+	(symbol "Barrel_Jack_Switch"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack_Switch"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PC-Engine_CDR-30A:BarrelJack_Horizontal"
+			(at 0.508 -11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1.27 -1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack with an internal switch"
+			(at -0.508 -8.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "DC power barrel jack connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "BarrelJack*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Barrel_Jack_Switch_0_1"
+			(rectangle
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -3.302 3.175)
+				(mid -3.9343 2.54)
+				(end -3.302 1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -3.302 3.175)
+				(mid -3.9343 2.54)
+				(end -3.302 1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -2.286) (xy 1.905 -1.651)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 3.81 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.683 3.175)
+				(end -3.302 1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "Barrel_Jack_Switch_1_1"
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CXA1081M"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2082,7 +2501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CXA1081"
+		(property "Value" "CXA1081M"
 			(at 7.62 4.445 0)
 			(effects
 				(font
@@ -2091,8 +2510,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CDR-30A:SOIC-30W_7.5x20.0mm_P1.27mm"
-			(at 18.9865 -19.7485 0)
+		(property "Footprint" "PC-Engine_CDR-30A:SOIC-30W_7.5x20.0mm_P1.27mm"
+			(at 22.098 -48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2529,7 @@
 			)
 		)
 		(property "Description" "RF Amp for CD players"
-			(at 0 0 0)
+			(at 14.986 -43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +2555,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CXA1081_0_0"
+		(symbol "CXA1081M_0_0"
 			(rectangle
 				(start 2.54 2.54)
 				(end 26.67 -38.1)
@@ -2149,7 +2568,7 @@
 				)
 			)
 		)
-		(symbol "CXA1081_1_1"
+		(symbol "CXA1081M_1_1"
 			(pin input line
 				(at 0 0 0)
 				(length 2.54)
@@ -2712,8 +3131,8 @@
 				)
 			)
 		)
-		(property "Footprint" "CDR-30A:LQFP-48_12x12mm_P0.8mm"
-			(at 0 0 0)
+		(property "Footprint" "PC-Engine_CDR-30A:LQFP-48_12x12mm_P0.8mm"
+			(at -0.508 -50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +4056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_QFP:PQFP-100_14x20mm_P0.65mm"
+		(property "Footprint" "PC-Engine_CDR-30A:PQFP-80_14x20mm_P0.8mm"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -5381,7 +5800,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
-			(at 0 0 0)
+			(at 0.254 -57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,9 +5884,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -5.08 180)
+				(at 13.97 0 180)
 				(length 5.08)
-				(name "D2"
+				(name "D0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5501,9 +5920,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 0 180)
+				(at 13.97 -5.08 180)
 				(length 5.08)
-				(name "D0"
+				(name "D2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7819,7 +8238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CDR-30A:PQFP-64_20x14mm_P1.0mm"
+		(property "Footprint" "PC-Engine_CDR-30A:PQFP-64_20x14mm_P1.0mm"
 			(at -97.79 -69.85 0)
 			(effects
 				(font
@@ -9549,7 +9968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDR-30A:Diode_Flex_Pads"
+		(property "Footprint" "PC-Engine_CDR-30A:Diode_Flex_Pads"
 			(at 0 -11.938 0)
 			(effects
 				(font
@@ -9689,30 +10108,30 @@
 			)
 		)
 	)
-	(symbol "Flex_Conn_02x04_Odd_Even_7Pos"
+	(symbol "FFC_Conn_01x04"
 		(pin_names
 			(offset 1.016) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J"
-			(at 0 6.35 0)
+		(property "Reference" "CN"
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Flex_Conn_02x04_Odd_Even_7Pos"
-			(at 0 -6.35 0)
+		(property "Value" "FFC_Conn_01x04"
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "CDR-30A:FLEX_SOIC-LIKE_7_3.9x4.9mm_P1.27mm"
-			(at 1.016 -15.494 0)
+		(property "Footprint" "PC-Engine_CDR-30A:FFC_01x04_P1.25mm_Vertical"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9721,7 +10140,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0.254 -9.652 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9729,8 +10148,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0.508 -11.938 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9747,7 +10166,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Connector*:*_2x??_*"
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9756,10 +10175,11 @@
 				(hide yes)
 			)
 		)
-		(symbol "Flex_Conn_02x04_Odd_Even_7Pos_1_1"
-			(rectangle
-				(start -2.54 -3.683)
-				(end -1.27 -3.937)
+		(symbol "FFC_Conn_01x04_1_1"
+			(arc
+				(start 0 -4.572)
+				(mid -0.5058 -5.08)
+				(end 0 -5.588)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -9768,9 +10188,10 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start -2.54 -1.143)
-				(end -1.27 -1.397)
+			(arc
+				(start 0 -2.032)
+				(mid -0.5058 -2.54)
+				(end 0 -3.048)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -9779,9 +10200,10 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start -2.54 1.397)
-				(end -1.27 1.143)
+			(polyline
+				(pts
+					(xy -1.27 -5.08) (xy -0.508 -5.08)
+				)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -9790,9 +10212,10 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start -2.54 3.937)
-				(end -1.27 3.683)
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy -0.508 -2.54)
+				)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -9801,20 +10224,10 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start -2.54 5.08)
-				(end 2.54 -5.08)
-				(stroke
-					(width 0.254)
-					(type default)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -0.508 0)
 				)
-				(fill
-					(type background)
-				)
-			)
-			(rectangle
-				(start 2.54 -3.683)
-				(end 1.27 -3.937)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -9823,9 +10236,10 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 2.54 -1.143)
-				(end 1.27 -1.397)
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy -0.508 2.54)
+				)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -9834,9 +10248,22 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 2.54 3.937)
-				(end 1.27 3.683)
+			(arc
+				(start 0 0.508)
+				(mid -0.5058 0)
+				(end 0 -0.508)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 3.048)
+				(mid -0.5058 2.54)
+				(end 0 2.032)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -9846,7 +10273,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 3.81 0)
+				(at -5.08 2.54 0)
 				(length 3.81)
 				(name "Pin_1"
 					(effects
@@ -9864,7 +10291,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 3.81 180)
+				(at -5.08 0 0)
 				(length 3.81)
 				(name "Pin_2"
 					(effects
@@ -9882,7 +10309,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 1.27 0)
+				(at -5.08 -2.54 0)
 				(length 3.81)
 				(name "Pin_3"
 					(effects
@@ -9900,7 +10327,509 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -1.27 0)
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "FFC_Conn_01x12"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FFC_Conn_01x12"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PC-Engine_CDR-30A:FFC_01x12_P1.25mm_Vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x12, script generated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FFC_Conn_01x12_1_1"
+			(arc
+				(start 0 -14.732)
+				(mid -0.5058 -15.24)
+				(end 0 -15.748)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -12.192)
+				(mid -0.5058 -12.7)
+				(end 0 -13.208)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -9.652)
+				(mid -0.5058 -10.16)
+				(end 0 -10.668)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -7.112)
+				(mid -0.5058 -7.62)
+				(end 0 -8.128)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -4.572)
+				(mid -0.5058 -5.08)
+				(end 0 -5.588)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -2.032)
+				(mid -0.5058 -2.54)
+				(end 0 -3.048)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -15.24) (xy -0.508 -15.24)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -12.7) (xy -0.508 -12.7)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -10.16) (xy -0.508 -10.16)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -7.62) (xy -0.508 -7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -5.08) (xy -0.508 -5.08)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy -0.508 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -0.508 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy -0.508 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.08) (xy -0.508 5.08)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 7.62) (xy -0.508 7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 10.16) (xy -0.508 10.16)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 12.7) (xy -0.508 12.7)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0.508)
+				(mid -0.5058 0)
+				(end 0 -0.508)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 3.048)
+				(mid -0.5058 2.54)
+				(end 0 2.032)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 5.588)
+				(mid -0.5058 5.08)
+				(end 0 4.572)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 8.128)
+				(mid -0.5058 7.62)
+				(end 0 7.112)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 10.668)
+				(mid -0.5058 10.16)
+				(end 0 9.652)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 13.208)
+				(mid -0.5058 12.7)
+				(end 0 12.192)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 12.7 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -10.16 0)
+				(length 3.81)
+				(name "Pin_10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -12.7 0)
+				(length 3.81)
+				(name "Pin_11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -15.24 0)
+				(length 3.81)
+				(name "Pin_12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 10.16 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 7.62 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
 				(length 3.81)
 				(name "Pin_5"
 					(effects
@@ -9918,7 +10847,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -1.27 180)
+				(at -5.08 0 0)
 				(length 3.81)
 				(name "Pin_6"
 					(effects
@@ -9936,7 +10865,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -3.81 0)
+				(at -5.08 -2.54 0)
 				(length 3.81)
 				(name "Pin_7"
 					(effects
@@ -9954,7 +10883,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -3.81 180)
+				(at -5.08 -5.08 0)
 				(length 3.81)
 				(name "Pin_8"
 					(effects
@@ -9964,6 +10893,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 3.81)
+				(name "Pin_9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9995,7 +10942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDR-30A:Flexible_PCB_Conn_1x12_P1.25mm"
+		(property "Footprint" "PC-Engine_CDR-30A:Flexible_PCB_Conn_1x12_P1.25mm"
 			(at -1.016 -22.86 0)
 			(effects
 				(font
@@ -10569,7 +11516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDR-30A:Flexible_PCB_Conn_1x4_P1.25mm"
+		(property "Footprint" "PC-Engine_CDR-30A:Flexible_PCB_Conn_1x4_P1.25mm"
 			(at 0.254 -8.128 0)
 			(effects
 				(font
@@ -10807,7 +11754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDR-30A:Focus_Tracking_Coil_Pads"
+		(property "Footprint" "PC-Engine_CDR-30A:Focus_Tracking_Coil_Pads"
 			(at 0 -18.288 0)
 			(effects
 				(font
@@ -11010,6 +11957,147 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "L7805"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -3.81 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L7805"
+			(at 0 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PC-Engine_CDR-30A:TO-220-3_Horizontal_TabDown_HeatSink"
+			(at -24.13 -25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
+			(at -0.762 -22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
+			(at -0.508 -19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Voltage Regulator 1.5A Positive"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO?252* TO?263* TO?220*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "L7805_0_1"
+			(rectangle
+				(start -5.08 1.905)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "L7805_1_1"
+			(pin power_in line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11791,6 +12879,24 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at -5.08 -21.59 90)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -13.97 16.51 0)
 				(length 2.54)
@@ -11978,7 +13084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDR-30A:Laser_Diode_Pads"
+		(property "Footprint" "PC-Engine_CDR-30A:Laser_Diode_Pads"
 			(at -0.254 -10.16 0)
 			(effects
 				(font
@@ -12114,7 +13220,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDR-30A:MountingHole_1.6mm_Pad"
+		(property "Footprint" "PC-Engine_CDR-30A:MountingHole_1.6mm_Pad"
 			(at -0.254 -8.89 0)
 			(effects
 				(font
@@ -14079,7 +15185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDR-30A:FLEX_SOIC-LIKE_8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "PC-Engine_CDR-30A:FLEX_SOIC-LIKE_8_3.9x4.9mm_P1.27mm"
 			(at 1.016 -15.494 0)
 			(effects
 				(font
@@ -14296,7 +15402,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Potentiometer_Dual"
+		(property "Value" "R_Potentiometer_Dual_203C"
 			(at -0.508 -5.842 0)
 			(effects
 				(font
@@ -14304,8 +15410,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 6.35 -1.905 0)
+		(property "Footprint" "PC-Engine_CDR-30A:Potentiometer_Double_Horizontal_Common"
+			(at 6.096 -14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14314,7 +15420,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 6.35 -1.905 0)
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14323,7 +15429,7 @@
 			)
 		)
 		(property "Description" "Dual potentiometer"
-			(at -0.762 -8.128 0)
+			(at -0.254 -11.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14626,9 +15732,25 @@
 			)
 		)
 		(symbol "R_Potentiometer_Dual_1_1"
+			(text "15k"
+				(at -6.35 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "15k"
+				(at 6.35 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
+				(at 6.35 2.54 270)
+				(length 2.54)
 				(name "1"
 					(effects
 						(font
@@ -14645,7 +15767,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -2.54 0)
+				(at 0 -3.81 90)
 				(length 1.27)
 				(name "2"
 					(effects
@@ -14681,8 +15803,8 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 2.54 270)
-				(length 2.54)
+				(at -10.16 -2.54 0)
+				(length 1.27)
 				(name "4"
 					(effects
 						(font
@@ -14740,7 +15862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDR-30A:Potentiometer_Flex_Pads"
+		(property "Footprint" "PC-Engine_CDR-30A:Potentiometer_Flex_Pads"
 			(at -0.254 -13.208 0)
 			(effects
 				(font

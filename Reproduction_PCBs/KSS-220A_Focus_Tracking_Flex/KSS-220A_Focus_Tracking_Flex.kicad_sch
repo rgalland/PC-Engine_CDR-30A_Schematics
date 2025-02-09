@@ -1,0 +1,1102 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a28aac45-9982-4e07-be24-4865a575fa16")
+	(paper "A4")
+	(title_block
+		(title "KSS-220A Flexible PCB - Focus and Tracking")
+		(date "2024-08-17")
+		(rev "0.1")
+	)
+	(lib_symbols
+		(symbol "PC-Engine_CDR-30:Flex_PCB_Edge_Conn_01x4_P1.25mm"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Flex_PCB_Edge_Conn_01x4_P1.25mm"
+				(at 0 -17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CDR-30A:Flexible_PCB_Conn_1x4_P1.25mm"
+				(at 0.254 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.508 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Flex Edge Connector, single row, 4P, P1.25mm"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector fles 4P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Flex_PCB_Edge_Conn_01x4_P1.25mm_1_1"
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0.762 -3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0.762 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -3.302)
+					(mid 0.7642 -3.81)
+					(end 1.27 -4.318)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -0.762)
+					(mid 0.7642 -1.27)
+					(end 1.27 -1.778)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 1.778)
+					(mid 0.7642 1.27)
+					(end 1.27 0.762)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 4.318)
+					(mid 0.7642 3.81)
+					(end 1.27 3.302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 3.81 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -3.81 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PC-Engine_CDR-30:Focus_Tracking_Coil_Pads"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Focus_Tracking_Coil_Pads"
+				(at 0.254 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CDR-30A:Focus_Tracking_Coil_Pads"
+				(at 0 -18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Focus and T racking Coil Pads, 4 Pos"
+				(at 0.762 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Focus_Tracking_Coil_Pads_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 0.127)
+					(end 0.8636 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(polyline
+		(pts
+			(xy 97.79 97.79) (xy 97.79 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b30dc2-0cd9-4644-a28c-26d1c303b4e0")
+	)
+	(polyline
+		(pts
+			(xy 97.79 91.44) (xy 110.49 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ddf7cd-7b57-41f3-8168-c5f4b1d1927c")
+	)
+	(wire
+		(pts
+			(xy 203.2 96.52) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337a4a62-f14a-4a99-8028-ac14a5ab3545")
+	)
+	(polyline
+		(pts
+			(xy 115.57 96.52) (xy 130.81 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359c6a94-4307-487d-8c97-b43dcce07b94")
+	)
+	(polyline
+		(pts
+			(xy 85.09 105.41) (xy 115.57 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc0a7a6-16fe-49dc-ac5d-2bee5254afb1")
+	)
+	(polyline
+		(pts
+			(xy 85.09 83.82) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b41b29-af21-4159-baac-c138f8653b99")
+	)
+	(polyline
+		(pts
+			(xy 85.09 83.82) (xy 85.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69134f33-48da-4009-930d-5508d3a1548f")
+	)
+	(polyline
+		(pts
+			(xy 113.03 88.9) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ad002a-f3b9-4a3d-96b3-0a44317604e4")
+	)
+	(wire
+		(pts
+			(xy 203.2 91.44) (xy 139.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809b614d-0261-45fb-8073-317c8b2dfd05")
+	)
+	(wire
+		(pts
+			(xy 203.2 88.9) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a876f37-10d9-4511-ab1a-a480c1515ef1")
+	)
+	(polyline
+		(pts
+			(xy 113.03 99.06) (xy 110.49 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd7856f-6458-4ee4-9240-3de549a245ff")
+	)
+	(polyline
+		(pts
+			(xy 115.57 96.52) (xy 115.57 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87b9a6c-e874-417d-a4ca-656723ba3281")
+	)
+	(polyline
+		(pts
+			(xy 97.79 99.06) (xy 110.49 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b063b4fb-5fa1-4aca-aae0-a542a8807d17")
+	)
+	(polyline
+		(pts
+			(xy 97.79 91.44) (xy 97.79 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bf23fc-fdea-40f8-b2ef-821e6611968c")
+	)
+	(polyline
+		(pts
+			(xy 130.81 91.44) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a52cda-8bd5-4915-a431-f0013910b383")
+	)
+	(polyline
+		(pts
+			(xy 85.09 90.17) (xy 85.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8964574-deb4-4551-9416-5a9e686be779")
+	)
+	(polyline
+		(pts
+			(xy 85.09 91.44) (xy 85.09 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45024d1-a5fc-4a79-99f5-07d5e248745e")
+	)
+	(polyline
+		(pts
+			(xy 130.81 93.98) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1671bc-ffd5-41f4-ad41-0008ca80aed3")
+	)
+	(polyline
+		(pts
+			(xy 130.81 96.52) (xy 133.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e179778b-187a-4d54-b505-14fb691345c1")
+	)
+	(polyline
+		(pts
+			(xy 113.03 88.9) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72f1ce2-a0e5-40d9-a1d4-ccdf480cc9d1")
+	)
+	(polyline
+		(pts
+			(xy 113.03 93.98) (xy 113.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeeb2762-a7e1-4a75-9623-0db3147b3f83")
+	)
+	(polyline
+		(pts
+			(xy 110.49 91.44) (xy 130.81 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa6d5e3-d5e4-4608-8157-f1306012f288")
+	)
+	(wire
+		(pts
+			(xy 203.2 93.98) (xy 139.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f544a0c2-9e87-48e1-9c53-10892dd10179")
+	)
+	(polyline
+		(pts
+			(xy 113.03 93.98) (xy 130.81 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d2bf4d-fb70-4f93-a879-a18903c1cebb")
+	)
+	(arc
+		(start 97.79 95.25)
+		(mid 97.1697 94.6102)
+		(end 97.79 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0db38560-e474-4402-8de4-828cd687f759)
+	)
+	(arc
+		(start 97.79 93.98)
+		(mid 97.1697 93.3402)
+		(end 97.79 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6579e344-8dc0-4084-9840-dcd55ff059bd)
+	)
+	(arc
+		(start 97.79 97.79)
+		(mid 97.1697 97.1502)
+		(end 97.79 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6b1b00c6-3d09-45cb-96e5-68f33e4cb6b2)
+	)
+	(arc
+		(start 97.79 96.52)
+		(mid 97.1697 95.8802)
+		(end 97.79 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f2e3bf9-ec9d-4bb6-8c9d-c629fefa2435)
+	)
+	(rectangle
+		(start 69.85 81.28)
+		(end 105.41 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bacbd134-cde1-40a8-a045-bf80d0cf09ad)
+	)
+	(arc
+		(start 85.09 90.17)
+		(mid 84.4697 89.5302)
+		(end 85.09 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d9015354-a542-4361-af3b-6266e65233b4)
+	)
+	(arc
+		(start 85.09 88.9)
+		(mid 84.4697 88.2602)
+		(end 85.09 87.63)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f8e4fb3c-76a4-4a2f-8cfd-082165e3d04d)
+	)
+	(arc
+		(start 85.09 86.36)
+		(mid 84.4697 85.7202)
+		(end 85.09 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fa35556e-4290-42d9-ba0e-0fc62a2c4732)
+	)
+	(rectangle
+		(start 52.07 59.69)
+		(end 110.49 110.49)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fa59bb3e-2304-4cf5-9a2b-f7e21bd98952)
+	)
+	(arc
+		(start 85.09 87.63)
+		(mid 84.4697 86.9902)
+		(end 85.09 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fca684f1-bb01-4504-bdb7-d941d4a3a76d)
+	)
+	(text "T-"
+		(exclude_from_sim no)
+		(at 107.95 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03423f6e-0d36-463a-8f9b-426e3f54e1c8")
+	)
+	(text "KSM-220 or KSM-162\nOptical Pick-Up Block\n(2/2)"
+		(exclude_from_sim no)
+		(at 81.534 70.866 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "39554d06-d4fa-44ba-b520-211dd50e115f")
+	)
+	(text "TRACKING\nCOIL"
+		(exclude_from_sim no)
+		(at 91.44 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43150777-644d-45b6-a025-c8c3e62b0975")
+	)
+	(text "MAIN-PWR\nCN101"
+		(exclude_from_sim no)
+		(at 205.486 71.628 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "8adf2199-dbd6-4512-91b8-e2184c5a814e")
+	)
+	(text "T+"
+		(exclude_from_sim no)
+		(at 107.95 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc30e75f-e119-484d-8dbc-80fa06c1ad7c")
+	)
+	(text "Tracking and Focus\n"
+		(exclude_from_sim no)
+		(at 117.094 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0d90682-0c19-46a3-9444-6f80b1a2dea3")
+	)
+	(text "F+"
+		(exclude_from_sim no)
+		(at 107.95 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d221fffd-7d87-4f1b-97fe-c2ab4fd2e8a4")
+	)
+	(text "F-"
+		(exclude_from_sim no)
+		(at 108.204 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5706531-7bbf-410a-a212-b08cffdea5b9")
+	)
+	(text "FOCUS\nCOIL"
+		(exclude_from_sim no)
+		(at 79.756 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e9212f4a-83e9-4ea1-a521-9a1f86d10302")
+	)
+	(symbol
+		(lib_id "PC-Engine_CDR-30:Flex_PCB_Edge_Conn_01x4_P1.25mm")
+		(at 135.89 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85e95a83-3c8b-44c2-9e7d-438be19d45f8")
+		(property "Reference" "CN1"
+			(at 135.89 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Flex_PCB_Edge_Conn_01x4_P1.25mm"
+			(at 135.89 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CDR-30A:Flexible_PCB_Conn_1x4_P1.25mm"
+			(at 135.636 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.382 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Flex Edge Connector, single row, 4P, P1.25mm"
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b0809dc-1526-4c97-924e-b8ec8cd6083d")
+		)
+		(pin "2"
+			(uuid "cb3f7f84-99f7-4e6e-b6e3-e3356eafa98d")
+		)
+		(pin "3"
+			(uuid "8e30938f-8e4d-4648-bedc-d9587a084277")
+		)
+		(pin "4"
+			(uuid "c020844e-197f-479b-8769-cb1f2920be32")
+		)
+		(instances
+			(project "KSS-220A"
+				(path "/a28aac45-9982-4e07-be24-4865a575fa16"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PC-Engine_CDR-30:Focus_Tracking_Coil_Pads")
+		(at 208.28 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3ebfc5b-d52d-4427-b37f-84d6c3df4776")
+		(property "Reference" "CN2"
+			(at 208.28 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Focus_Tracking_Coil_Pads"
+			(at 208.28 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CDR-30A:Focus_Tracking_Coil_Pads"
+			(at 208.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Focus and T racking Coil Pads, 4 Pos"
+			(at 207.518 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "789df431-a68f-4fc1-b78f-3b586884e03c")
+		)
+		(pin "2"
+			(uuid "ba08b78d-5899-4c65-9ee5-375f767b8577")
+		)
+		(pin "3"
+			(uuid "78feb400-23af-474c-8125-128e4f0489de")
+		)
+		(pin "4"
+			(uuid "45a68e37-6806-4270-848d-88749a5fe1a9")
+		)
+		(instances
+			(project "KSS-220A"
+				(path "/a28aac45-9982-4e07-be24-4865a575fa16"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
