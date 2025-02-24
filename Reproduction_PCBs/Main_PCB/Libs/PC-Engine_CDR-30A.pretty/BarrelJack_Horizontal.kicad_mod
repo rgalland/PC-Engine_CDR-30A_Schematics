@@ -1,0 +1,242 @@
+(footprint "BarrelJack_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Barrel Jack, 2.5mm ID, 5.5mm OD, 24V, 5A, switch, https://www.cui.com/product/resource/pj-079bh.pdf ")
+	(tags "barrel jack cui dc power")
+	(property "Reference" "REF**"
+		(at 1.7 10.8 180)
+		(layer "F.SilkS")
+		(uuid "72da4b17-5de2-4ece-841d-01c1d4395144")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "BarrelJack_Horizontal"
+		(at -3.6 11.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "36dae584-1051-4418-8008-cc15669ef787")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -3.8 6.3 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2992ad6-9c20-4808-8601-e087850e3381")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -3.8 6.3 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e3e43dc-011f-41d4-8554-548e7187382d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -3.8 6.3 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd2c27c1-c231-410b-9ab1-812bcf0109da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.1 0)
+		(end -4.1 4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c4f500a5-f0ed-49cb-a20a-c10addf61f98")
+	)
+	(fp_line
+		(start -2.2 6.6)
+		(end 0.1 6.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6418613c-a216-4e10-bb8f-b7a8a882766b")
+	)
+	(fp_line
+		(start 0.1 6.6)
+		(end 0.1 9.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ce6ab08-4bab-45be-8da5-b9a1e8203893")
+	)
+	(fp_line
+		(start 0.1 9.5)
+		(end 7.7 9.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f678b2ed-b415-4c74-ad4b-52001b54d097")
+	)
+	(fp_line
+		(start 7.7 0)
+		(end 7.7 9.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0164530a-7d79-4198-adbf-17c605c609e0")
+	)
+	(fp_rect
+		(start -4.3 -4.2)
+		(end 7.9 9.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f96ab00f-5aac-4044-ad5e-bf55c06710d2")
+	)
+	(fp_line
+		(start -4 -4)
+		(end 7.6 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "51a33445-83ec-4200-a110-203b4a21fc0f")
+	)
+	(fp_line
+		(start -4 6.5)
+		(end -4 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0cb22b4f-1b5d-420f-8d42-31608f36e249")
+	)
+	(fp_line
+		(start -4 6.5)
+		(end 0.2 6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f05273fd-80c3-4721-aee5-b2a1b5ad7ee8")
+	)
+	(fp_line
+		(start 0.2 6.5)
+		(end 0.2 9.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7403a2c0-00c4-4251-98f1-5635df576b00")
+	)
+	(fp_line
+		(start 7.6 -4)
+		(end 7.6 9.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "23d56ef6-7529-4c59-b0cb-82b21a201236")
+	)
+	(fp_line
+		(start 7.6 9.4)
+		(end 0.2 9.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ec3dc816-b792-4158-a3d4-25985629ae30")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.7 2 180)
+		(layer "F.Fab")
+		(uuid "0743211b-da56-4c90-80da-fe552eb75b3b")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.135)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2 0)
+		(size 1.8 1.8)
+		(drill 1.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "2f01a494-4dc7-4d36-b228-d42aa54a70de")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.6 0)
+		(size 1.8 1.8)
+		(drill 1.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "d9576fb8-8725-43bc-b35a-d27a0a387508")
+	)
+	(pad "1" thru_hole rect
+		(at 5.8 8.2 90)
+		(size 1.8 3)
+		(drill oval 0.8 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1744f85c-ad57-4a90-8296-57d799b0a3cf")
+	)
+	(pad "2" thru_hole oval
+		(at 0 3.2)
+		(size 1.8 3)
+		(drill oval 0.8 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "300b71ee-0f46-41b3-9b45-f4fa6cbb087d")
+	)
+	(pad "3" thru_hole oval
+		(at -3 5.4)
+		(size 1.8 3)
+		(drill oval 0.8 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f5b28878-7113-49f1-9242-fef6dc72d0fe")
+	)
+)

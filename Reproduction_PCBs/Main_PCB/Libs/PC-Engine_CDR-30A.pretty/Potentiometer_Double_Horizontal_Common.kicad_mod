@@ -1,0 +1,232 @@
+(footprint "Potentiometer_Double_Horizontal_Common"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, horizontal, Piher T-16H Double, http://www.piher-nacesa.com/pdf/22-T16v03.pdf")
+	(tags "Potentiometer horizontal Piher T-16H Double")
+	(property "Reference" "REF**"
+		(at 0 -14.25 0)
+		(layer "F.SilkS")
+		(uuid "50897842-e253-4f01-9c4e-a0462d0ec862")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Double_Horizontal_Common"
+		(at 0 4.25 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e67b8b38-aa8d-4b58-b825-96a1ef4c2979")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a739e16-2b39-4560-954e-30df8abb2243")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfc8ed09-e9b5-47ce-a764-ffd794b89570")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2478b5b-0b7d-4dfd-879c-b0ff53be02ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start -4.4 -2)
+		(mid -4.311473 -2.878178)
+		(end -4.049456 -3.721019)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a1d416f7-f9ec-420e-b6d3-25f340a3d6b8")
+	)
+	(fp_arc
+		(start -4.329028 -1.212904)
+		(mid -4.382221 -1.604855)
+		(end -4.4 -2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a52cb0f3-8446-46b3-abf7-8e324fb73e58")
+	)
+	(fp_arc
+		(start 2.950103 1.255286)
+		(mid 0.033577 2.393048)
+		(end -2.9 1.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b17c9093-2dc9-4257-99ff-169104639165")
+	)
+	(fp_arc
+		(start 4.033463 -3.758175)
+		(mid 4.307391 -2.897988)
+		(end 4.4 -2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0184da5a-a47c-4b2a-8293-a1ff4af96ffd")
+	)
+	(fp_arc
+		(start 4.4 -2)
+		(mid 4.381404 -1.595895)
+		(end 4.325772 -1.195205)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fbb52951-6de5-42db-ad5d-b6dcf2e8f5fc")
+	)
+	(fp_circle
+		(center 0 -2)
+		(end 10 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "03ebc8df-520a-445d-ad75-61f7ea293961")
+	)
+	(fp_circle
+		(center 0 -2)
+		(end 4.3 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3511aced-de1c-4b94-85d5-c1633f4da703")
+	)
+	(fp_circle
+		(center 0 -2)
+		(end 8.6 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f8ba0008-ad9d-414a-9173-46ec1e701b47")
+	)
+	(fp_circle
+		(center 0 -2)
+		(end 9.8 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "143a6e04-2af7-4741-bef1-0a070a8ca84f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -6 -5 0)
+		(layer "F.Fab")
+		(uuid "f7eb1126-eb9e-410a-9b3e-8d238c06dada")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.8 0)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e517fd27-1417-40b7-8d9e-60bdbace1489")
+	)
+	(pad "2" thru_hole circle
+		(at -3.2 -4.8)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5c3329c8-3f64-42a6-9719-01574fd1ecbd")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -6.2)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3a898b3d-2fe1-4c6c-a706-fbff62508ccf")
+	)
+	(pad "4" thru_hole circle
+		(at 3.2 -4.8)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8e33c765-cefc-494b-b4e7-3a0953487214")
+	)
+	(pad "5" thru_hole circle
+		(at 3.8 0)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "126cb3f8-c27e-424a-9185-39a26f1b7090")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Piher_T-16H_Double_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
