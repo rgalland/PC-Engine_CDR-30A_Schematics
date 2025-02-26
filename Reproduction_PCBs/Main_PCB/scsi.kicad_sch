@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "PC-Engine CDR-30A (CD-ROM2) MAIN PWR Reproduction")
-		(date "2025-02-24")
+		(date "2025-02-26")
 		(rev "0.1")
 		(company "Author: Regis Galland")
 	)
@@ -1994,7 +1994,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
+			(property "Footprint" "Package_SO:SOP-28_8.4x18.16mm_P1.27mm "
 				(at 0.254 -57.658 0)
 				(effects
 					(font
@@ -8992,7 +8992,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 149.86) (xy 36.83 149.86)
+			(xy 29.21 149.86) (xy 57.15 149.86)
 		)
 		(stroke
 			(width 0)
@@ -9149,16 +9149,6 @@
 			(type default)
 		)
 		(uuid "c04d6e78-8f0e-40b6-9851-ba162a28872d")
-	)
-	(wire
-		(pts
-			(xy 44.45 149.86) (xy 57.15 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0803d5e-8aa7-4915-ab25-355b46e699d2")
 	)
 	(wire
 		(pts
@@ -11816,16 +11806,6 @@
 		)
 		(uuid "1ce49cf9-c17e-44a7-888f-6fcdedceacfa")
 	)
-	(text "No R534 on CDR-30 Rev"
-		(exclude_from_sim no)
-		(at 36.068 146.304 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1f4180f1-59a6-4ae4-8b32-69588608b6d6")
-	)
 	(text "30-way IFU facing connector"
 		(exclude_from_sim no)
 		(at 362.966 169.926 0)
@@ -14042,76 +14022,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 40.64 149.86 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c43168f-7a44-4e51-b13a-ec9172de9c51")
-		(property "Reference" "R534"
-			(at 49.276 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 41.402 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 40.64 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f659e21a-4e2c-45d9-8034-5b705985784a")
-		)
-		(pin "2"
-			(uuid "9ddcbcb6-0c3e-4b53-9676-a058046a4c2b")
-		)
-		(instances
-			(project "MAIN_PWR"
-				(path "/035ab33a-1caf-4155-b57e-664ce0b37194/c7b0ff97-3379-4f62-addb-1558cc68b0b5"
-					(reference "R534")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 367.03 104.14 270)
 		(mirror x)
 		(unit 1)
@@ -15252,7 +15162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOP-28_8.4x18.16mm_P1.27mm"
 			(at 223.52 46.99 0)
 			(effects
 				(font

@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "PC-Engine CDR-30A (CD-ROM2) MAIN PWR Reproduction")
-		(date "2025-02-24")
+		(date "2025-02-26")
 		(rev "0.1")
 		(company "Author: Regis Galland")
 	)
@@ -2150,7 +2150,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Servo Signal Processor for CD Player"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Servo Signal Processor for CD Player"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9645,76 +9654,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 229.87 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21923a76-508b-4d15-baf3-fc732aea6956")
-		(property "Reference" "C117"
-			(at 232.791 147.7588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3uF"
-			(at 232.791 150.1831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
-			(at 230.8352 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15e0cdab-de98-4c1a-9ba4-500d2d5f0db7")
-		)
-		(pin "2"
-			(uuid "27c592e7-8d90-4434-ad81-ad541ec0b1b4")
-		)
-		(instances
-			(project "MAIN_PWR"
-				(path "/035ab33a-1caf-4155-b57e-664ce0b37194/a68fdd2b-2189-42fe-a362-2d29c45a12b9"
-					(reference "C117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
 		(at 166.37 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11831,7 +11770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Servo Signal Processor for CD Player"
 			(at 232.41 90.17 0)
 			(effects
 				(font
@@ -12054,6 +11993,74 @@
 			(project "MAIN_PWR"
 				(path "/035ab33a-1caf-4155-b57e-664ce0b37194/a68fdd2b-2189-42fe-a362-2d29c45a12b9"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 229.87 149.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67d9489b-13de-44eb-9b1d-92fc2e1eca60")
+		(property "Reference" "C117"
+			(at 234.95 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3uF"
+			(at 235.458 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 228.9048 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02ee87e3-5ffe-470e-88dc-a27bb6af9640")
+		)
+		(pin "2"
+			(uuid "8d5c1b9b-b75e-461d-ab27-52387349c315")
+		)
+		(instances
+			(project "Main_PCB"
+				(path "/035ab33a-1caf-4155-b57e-664ce0b37194/a68fdd2b-2189-42fe-a362-2d29c45a12b9"
+					(reference "C117")
 					(unit 1)
 				)
 			)

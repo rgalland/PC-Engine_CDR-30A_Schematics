@@ -3149,7 +3149,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Servo Signal Processor for CD Player"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Servo Signal Processor for CD Player"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5799,7 +5808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOP-28_8.4x18.16mm_P1.27mm "
 			(at 0.254 -57.658 0)
 			(effects
 				(font

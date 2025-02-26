@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PC-Engine CDR-30A (CD-ROM2) MAIN PWR Reproduction")
-		(date "2025-02-24")
+		(date "2025-02-26")
 		(rev "0.1")
 		(company "Author: Regis Galland")
 	)
@@ -6650,76 +6650,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 95.25 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25e78885-7a0f-4f2e-9292-8968cec67070")
-		(property "Reference" "C102"
-			(at 98.171 114.7388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3uF"
-			(at 98.171 117.1631 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
-			(at 96.2152 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c59f0fac-358c-4a26-a042-8bc73a86e75f")
-		)
-		(pin "2"
-			(uuid "9249e565-cc91-4607-8a8d-b593c23aa759")
-		)
-		(instances
-			(project "MAIN_PWR"
-				(path "/035ab33a-1caf-4155-b57e-664ce0b37194/56cfd0d5-32ce-4b42-8ead-ceb694bb000b"
-					(reference "C102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 233.68 93.98 0)
 		(unit 1)
@@ -7332,6 +7262,73 @@
 			(project "MAIN_PWR"
 				(path "/035ab33a-1caf-4155-b57e-664ce0b37194/56cfd0d5-32ce-4b42-8ead-ceb694bb000b"
 					(reference "R109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "532048b2-5396-4d2a-8000-f3290547ab0f")
+		(property "Reference" "C102"
+			(at 90.17 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3uF"
+			(at 89.662 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 96.2152 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da4234c4-925f-41f9-9c00-a672bb828596")
+		)
+		(pin "2"
+			(uuid "89ee82e0-8296-44e4-ba68-e05b8d6919f8")
+		)
+		(instances
+			(project "Main_PCB"
+				(path "/035ab33a-1caf-4155-b57e-664ce0b37194/56cfd0d5-32ce-4b42-8ead-ceb694bb000b"
+					(reference "C102")
 					(unit 1)
 				)
 			)
