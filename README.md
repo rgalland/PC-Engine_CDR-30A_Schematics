@@ -4,3 +4,15 @@ It started with the schematics of the main and front PCBs but has now evolve to 
 Currently available reproduction parts are the 2 flexible PCBs on the KSS-220A laser module. These are not compatible with the KSS-162A found mainly on older units. The main PCB is at the prototype level at the moment.
 
 You will need kicad to work with files but I also provide pdf files to view the schematics in a more convenent way.
+
+Current versions:
+Original PCBs:
+	- MAIN_PWR schematics: Rev0.3
+	- FRONT_PWB schematics: Rev0.1
+	
+Reproduction PCBs:
+	- KSS-220A Focus Tracking Flex PCB schematics and layout: Rev0.1
+	- KSS-220A Lens Flex PCB schematics and layout: Rev0.1
+	- Main PCB schematics and layout: Rev0.1
+	
+	
